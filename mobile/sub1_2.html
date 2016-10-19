@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ko">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+ <title>:::::tvN Mobile:::::</title>
+ <style type="text/css">
+ @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+ </style>
+ <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+ <link rel="apple-touch-startup-image" href="startup.png">
+ <link href="css/common.css" rel="stylesheet">
+ <link href="css/sub1_content2.css" rel="stylesheet">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/prefixfree.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.3&amp;sensor=true"></script>
+<script type="text/javascript" src="js/map.js"></script>
+<script src="js/navi.js"></script>
+<script src="js/plusicon.js"></script>
+<script src="js/search.js"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+</script>
+
+<!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  <div id="wrap">
+  <!--header s  -->
+  <header>
+    <div id="head">
+      <a href="index.html" id="logo"><h1 class="main_logo"><img src="images/logo.png" alt="tvN 로고"></h1></a>
+      <a href="#" id="left_menu"><img src="images/left_menu.png" alt="왼쪽 메뉴버튼"></a>
+      <a id="btn1"><span class="search_icon">검색하기</span></a>
+      <div class="box"></div>
+      <div id="nav">
+        <img class="arrow" src="images/arrow.png" alt="화살표">
+        <div class="all">
+          <h2>전체메뉴</h2>
+          <img id="close" src="images/close.png" alt="메뉴닫기버튼">
+        </div>
+        <div class="mainMenu">
+          <dl>
+          <dt><a href="#">ABOUT US</a></dt>
+              <dd><a href="sub1_1.html">회사소개</a></dd>
+              <dd><a href="#">CEO인사말</a></dd>
+              <dd><a href="sub1_2.html">오시는 길</a></dd>
+          </dl>
+          <dl>
+          <dt><a href="#">PROGRAM</a></dt>
+              <dd><a href="sub2_1.html">최신프로그램</a></dd>
+              <dd><a href="sub2_2.html">인기프로그램</a></dd>
+              <dd><a href="sub2_3.html">종영프로그램</a></dd>
+          </dl>
+          <dl>
+          <dt><a href="#">NEWS&nbsp;&amp;&nbsp;APPLY</a></dt>
+            <dd><a href="sub3_1.html">공지사항</a></dd>
+            <dd><a href="sub3_1.html">채용공고</a></dd>
+          </dl>
+        <a href="sub4_1.html" class="last">고객센터</a>
+      </div>
+      <ul>
+        <li><a href="#">마이페이지</a></li>
+        <li><a href="#">이벤트참여</a></li>
+      </ul>
+      </div>
+    </div>
+    <!--head e-->
+  <div id="content">
+  <form id="search" action="#" method="get">
+    <fieldset>
+      <legend>사이트 검색 입력</legend>
+      <div class="bg_search">
+        <div class="wrapBox">
+          <input type="text" name="input_search" class="type_text" title="검색어 입력" maxlength="255" placeholder="검색해주세요." />
+        </div>
+        <input type="submit" id="Btn" class="type_btn" title="검색" />
+      </div>
+    </fieldset>
+  </form>
+</div>
+<!--content e-->
+ <nav>
+   <ul class="main_menu">
+    <li><a href="sub1_1.html" title="company" class="tab_m">회사소개</a></li>
+    <li><a href="sub2_1.html" title="movies" class="tab_m">tvN프로그램</a></li>
+    <li><a href="sub3_1.html" title="notice" class="tab_m">공지사항</a></li>
+    <li><a href="sub4_1.html" title="고객센터">고객센터</a></li>
+   </ul>
+  </nav>
+<!--head e-->
+</header> <!-- article s  -->
+  <nav>
+    <ul class="sub_menu">
+      <li><a href="sub1_1.html">CJ E&amp;M  소개</a></li>
+      <li><a href="sub1_2.html">오시는 길</a></li>
+    </ul>
+ </nav>
+ <article>
+    <section class="map">
+      <h2>CJ E&amp;M 오시는길</h2>
+      <div id="map_canvas" style="border:1px solid #ccc">
+      </div>
+      <table summary="CJ E&amp;M 본사 주소 및 연락처">
+          <caption hidden>
+            CJ E&amp;M 본사 주소 및 연락처</caption>
+          <tbody>
+              <tr>
+                  <th scope="row" class="border">본사 주소</th>
+                  <td>서울시 마포구 상암산로 66 CJ E&amp;M Center</td>
+              </tr>
+              <tr>
+                  <th scope="row">방송편성문의</th>
+                  <td>TEL : 080-080-0780 / 0781</td>
+              </tr>
+              <tr>
+                  <th scope="row">사이트/동영상문의</th>
+                  <td>1566-2226</td>
+              </tr>
+              <tr>
+                  <th scope="row">E-MAIL</th>
+                  <td>applyenm@cj.net</td>
+              </tr>
+          </tbody>
+      </table>
+    </section>
+    <section class="public">
+      <h2>대중교통 이용안내</h2>
+      <div class="publicbox">
+          <ul>                      
+              <li class="bus">
+                  <img src="images/bus.jpg" alt="버스 이용안내" />
+                  <p>- 상암DMC 홍보관 (14-286)<br/>· 간선:710,171,271,470,771<br/>· 지선:6715,7013A,7711,7715,7730,7013B<br/>· 광역:9711</p>
+              </li>
+              <li class="subway">
+                  <img src="images/subway.jpg" alt="지하철 이용안내" />
+                  <p>· 6호선 디지털미디어시티역<br/>&nbsp;&nbsp;2번출구 도보로 약20분 소요<br/>· 공항철도 디지털미디어시티역<br/>&nbsp;&nbsp;9번출구 약10분소요</p>
+              </li>     
+          </ul>
+      </div>
+    </section>
+ </article>
+ <!-- article e  -->  
+
+  
+<div class="bottom">
+  <a id="plus">플러스 메뉴</a>
+  <ul class="menu_option">
+    <li style="left: 0; top:0;"><a href="sub2_3.html"><span>쇼박스 영화</span></a></li>
+    <li style="left: 0; top:0;"><a href="#"><span>영화예매</span></a></li>
+    <li style="left: 0; top:0;"><a href="#"><span>My Page</span></a></li>
+  </ul>
+</div>
+
+<!-- footer s  -->
+<footer>
+  <div id="footer">
+    <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About Us</a></li>
+     <li class="end"><a href="#">Site map</a></li>
+    </ul>
+    <input type="button" value="로그인">
+    <input type="button" value="PC버전">
+    <input type="button" value="고객센터">
+    <p class="privacy">
+     <a href="#">개인정보처리방침</a>
+     <span class="bar">|</span>
+     <a href="#">이용약관</a>
+     <span class="bar">|</span>
+     <a href="#">이메일무단수집거부</a>
+    <span class="copyright">Copyright&copy; 2016 CJ E&amp;M ALL RIGHTS RESERVED.</span><a class="top_btn" href="javascript:window.scrollTo(0,0);">TOP▲</a></p>
+  </div>
+</footer>
+<!-- footer e  -->
+</div>
+<!--wrap e--></body>
+</html>

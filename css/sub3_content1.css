@@ -1,0 +1,24 @@
+/* sub3_1의 내용 콘텐츠 */
+.main_menu li:nth-child(3) a{background:#333; color:#fc0;}
+
+article{position:relative;}
+.btn{margin-left:100px}
+.btn img{margin-right:10px;}
+.search{height:30px; width:60%;overflow:hidden; position:absolute; top:15px; right:10px; border:1px solid #666; 
+	}
+.search select{width:30%;float:left; border:0; height:30px; text-align:center;}
+.search input{width:55%; height:30px; float:left; border:0; background:#fff;}
+.search button{width:15%; height:30px;border:0; background:#fff url(../images/search_top1.png) center no-repeat;background-size:20px;  text-indent:-999px; overflow:hidden;}
+.sheet{padding:10px 2%;}
+table{margin-top:50px; width:100%; border-top:2px solid #666;font-size:12px;text-align:center; background:#fff;}
+table thead{border-bottom:2px solid #999; background:#efefef;}
+table tr{border-bottom:1px solid #ccc}
+table th, td a{height:25px; color:#333; line-height: 1.3em;}
+table .link{text-align: left; padding:3px 5px}
+a:hover, a:active{text-decoration:none; color:#fc0;}
+span{margin:0 10px;}
+p.paging{background:#fff;padding:5px 0;}
+p img{vertical-align:middle;}
+p span a, strong{margin:0 5px; font-size:1.1em; width:21px; height:21px;}
+p.paging{margin-bottom:10px;text-align:center; height:21px; vertical-align:center;}
+p a{color:#333;}

@@ -1,0 +1,23 @@
+/*sub4 */
+
+.main_menu li:nth-child(4) a{background:#333; color:#fc0;}
+.sub_menu{overflow:hidden;}
+.sub_menu li:nth-child(1) a{border-bottom:3px #333 solid}
+.sub_menu li a{display:block; box-sizing:border-box; width:50%; float:left; text-align: center; background:#fff; color:#333; font-size:13px; padding:8px 0}
+
+h2{padding:10px 20px 5px 20px; font-size:15px; font-weight:600;}
+.faq{width:100%; border-bottom:1px solid #ddd;font-size:12px; background:#fff;}  
+.faq .hgroup{position:relative;margin:0 0 10px 0;}  
+.faq .hgroup .all{padding:3px; position:absolute; top:10px; right:10px;
+       color:#fff; text-decoration:none; background:#999; border-radius:5px; box-shadow:1px 1px 1px #ccc}  
+.faq ul{margin:0;padding:0;list-style:none}  
+.faq .q{margin:0;border-top:1px solid #ddd}  
+.faq .a{padding-bottom:10px; margin-top:0px;margin-bottom:0px;overflow:hidden;padding-top:10px}
+.faq .q a.trigger{display:block;padding:10px 15px;background:#fafafa;color:#333;text-align:left;font-weight:600;}  
+.faq .hide .q a.trigger{font-weight:normal;background:none}  
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus{background:#d2d2d2;color:#000}  
+.faq .a{margin:0;padding:10px 15px;line-height:1.5} 
+
+.contact{margin:20px 0; padding:10px; background:#fc0; color:#333;text-align: center; font-size:12px;}

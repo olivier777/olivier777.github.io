@@ -1,0 +1,63 @@
+/* sub3_1의 내용 콘텐츠 */
+.main_menu li:nth-child(4) a{background:#333; color:#fc0;}
+.sub_menu{overflow:hidden;}
+.sub_menu li:nth-child(2) a{border-right:solid #ccc 1px; border-bottom:3px #333 solid}
+.sub_menu li a{display:block; box-sizing:border-box; width:50%; float:left; text-align: center; background:#fff; color:#333; font-size:13px; padding:8px 0}
+
+h1{font-size:15px; font-weight:600;position:absolute; left:50%; margin-left:-42px;}
+.page-inner {
+	padding: 15px 20px;
+}
+.page-inner .sub{margin-top:10px;padding:20px;text-align: center; font-size:13px;}
+form p{margin-bottom:10px;}
+input[type="text"], input[type="tel"],textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #262626;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#262626), to(#333));
+	background-image: -webkit-linear-gradient(top, #262626, #333);
+	background-image:    -moz-linear-gradient(top, #262626, #333);
+	background-image:      -o-linear-gradient(top, #262626, #333);
+	background-image:         linear-gradient(to bottom, #262626, #333);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3) inset, 0px 1px 0px rgba(255, 255, 255, 0.2);
+	border:1px solid #000;
+	border-radius: 5px;
+	padding: 9px 10px;
+	color: #999;
+	width: 100%;
+
+}
+input[type="submit"] {
+	border-radius: 5px;
+	display: block;
+	text-align: center;
+	padding: 12px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	border:1px solid #000;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0px 0px 1px rgba(255,255,255,.4) inset, 0px 1px 1px rgba(0,0,0,0.5);
+	color: #fff;
+	text-shadow: 0px 1px 0px rgba(0,0,0,1);
+	width: 100%;
+	background-color: #242424;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#242424), to(#070707));
+	background-image: -webkit-linear-gradient(top, #242424, #070707);
+	background-image:    -moz-linear-gradient(top, #242424, #070707);
+	background-image:      -o-linear-gradient(top, #242424, #070707);
+	background-image:         linear-gradient(to bottom, #242424, #070707);
+}
+input[type="submit"]:hover {
+	background-color: #282828;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#282828), to(#171717));
+	background-image: -webkit-linear-gradient(top, #282828, #171717);
+	background-image:    -moz-linear-gradient(top, #282828, #171717);
+	background-image:      -o-linear-gradient(top, #282828, #171717);
+	background-image:         linear-gradient(to bottom, #282828, #171717);
+}
+input[type="submit"]:active {
+	background: #333;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.4) inset;
+}

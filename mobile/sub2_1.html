@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="ko">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+ <title>:::::tvN Mobile:::::</title>
+ <style type="text/css">
+ @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+ </style>
+ <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+ <link rel="apple-touch-startup-image" href="startup.png">
+ <link href="css/common.css" rel="stylesheet">
+ <link href="css/sub2_content1.css" rel="stylesheet">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/prefixfree.min.js"></script>
+<script src="js/navi.js"></script>
+<script src="js/plusicon.js"></script>
+<script src="js/search.js"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+</script>
+<script>
+$(document).ready(function() {
+             
+  
+  //줄거리 더보기 기능
+
+      $('.plot').hide();
+
+      $('a.readmore').toggle(function(){
+          $('.plot').slideDown('normal');
+          $(this).text("-줄거리 접기");
+       },
+       function(){
+        $('.plot').slideUp();
+        $(this).text("+줄거리 더보기");
+       });
+});
+</script>
+<!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  <div id="wrap">
+  <!--header s  -->
+  <header>
+    <div id="head">
+      <a href="index.html" id="logo"><h1 class="main_logo"><img src="images/logo.png" alt="tvN 로고"></h1></a>
+      <a href="#" id="left_menu"><img src="images/left_menu.png" alt="왼쪽 메뉴버튼"></a>
+      <a id="btn1"><span class="search_icon">검색하기</span></a>
+      <div class="box"></div>
+      <div id="nav">
+        <img class="arrow" src="images/arrow.png" alt="화살표">
+        <div class="all">
+          <h2>전체메뉴</h2>
+          <img id="close" src="images/close.png" alt="메뉴닫기버튼">
+        </div>
+        <div class="mainMenu">
+          <dl>
+          <dt><a href="#">ABOUT US</a></dt>
+              <dd><a href="sub1_1.html">회사소개</a></dd>
+              <dd><a href="#">CEO인사말</a></dd>
+              <dd><a href="sub1_2.html">오시는 길</a></dd>
+          </dl>
+          <dl>
+          <dt><a href="#">PROGRAM</a></dt>
+              <dd><a href="sub2_1.html">최신프로그램</a></dd>
+              <dd><a href="sub2_2.html">인기프로그램</a></dd>
+              <dd><a href="sub2_3.html">종영프로그램</a></dd>
+          </dl>
+          <dl>
+          <dt><a href="#">NEWS&nbsp;&amp;&nbsp;APPLY</a></dt>
+            <dd><a href="sub3_1.html">공지사항</a></dd>
+            <dd><a href="sub3_1.html">채용공고</a></dd>
+          </dl>
+        <a href="sub4_1.html" class="last">고객센터</a>
+      </div>
+      <ul>
+        <li><a href="#">마이페이지</a></li>
+        <li><a href="#">이벤트참여</a></li>
+      </ul>
+      </div>
+    </div>
+    <!--head e-->
+  <div id="content">
+  <form id="search" action="#" method="get">
+    <fieldset>
+      <legend>사이트 검색 입력</legend>
+      <div class="bg_search">
+        <div class="wrapBox">
+          <input type="text" name="input_search" class="type_text" title="검색어 입력" maxlength="255" placeholder="검색해주세요." />
+        </div>
+        <input type="submit" id="Btn" class="type_btn" title="검색" />
+      </div>
+    </fieldset>
+  </form>
+</div>
+<!--content e-->
+ <nav>
+   <ul class="main_menu">
+    <li><a href="sub1_1.html" title="company" class="tab_m">회사소개</a></li>
+    <li><a href="sub2_1.html" title="movies" class="tab_m">tvN프로그램</a></li>
+    <li><a href="sub3_1.html" title="notice" class="tab_m">공지사항</a></li>
+    <li><a href="sub4_1.html" title="고객센터">고객센터</a></li>
+   </ul>
+  </nav>
+<!--head e-->
+</header> <!-- article s  -->
+   <nav>
+    <ul class="sub_menu">
+      <li><a href="sub2_1.html">최신프로그램</a></li>
+      <li><a href="sub2_2.html">인기프로그램</a></li>
+      <li><a href="sub2_3.html">종영프로그램</a></li>
+    </ul>
+  </nav>
+  <!-- article s  -->
+  <article>
+    <section class="movie">
+      <h2>최신프로그램</h2>
+      <video controls preload poster="images/preview.png">
+        <source src="movie/trailer1.mp4" type="video/mp4" />
+        <source src="movie/trailer1.ogv" type="video/ogg" />
+      </video>
+      <div class="info">
+        <h3>THE K2</h3>
+        <p class="english">매주 금토 저녁 8시 tvN</p>
+        <img src="images/2016_.jpg" alt="THE K2" width="40%">
+        <div class="text">
+            <ul>
+              <li><strong>등급</strong>: 청소년 관람불가</li>
+                <li><strong>타입</strong>: 일반, 디지털</li>
+                <li><strong>연출</strong> : 곽정환</li>
+                <li><strong>극본</strong> : 장혁린</li>
+                <li><strong>출연진</strong> : 지창욱, 임윤아, 송윤아, 조성하, 김갑수</li>
+                <li><strong>장르</strong> : 드라마</li>
+                <li><strong>줄거리</strong> : 전쟁 용병 출신의 보디가드 K2와 그를 고용한 대선 후보의 아내, 그리고 세상과 떨어져 사는 소녀! 로열패밀리를 둘러싼 은밀하고 강렬한 보디가드 액션 드라마</li>
+          </ul>
+      </div>
+      <!--text e-->
+      </div>
+      <!--info e-->
+    </section>
+    <div class="banner">
+      <a href="#"><img src="images/facebook.png" alt="페이스북 로고" width="20"><span>공식 페이스북 바로가기</span></a>
+    </div>
+  </article>
+  <!-- article e  -->  
+
+  
+<div class="bottom">
+  <a id="plus">플러스 메뉴</a>
+  <ul class="menu_option">
+    <li style="left: 0; top:0;"><a href="sub2_3.html"><span>tvN프로그램</span></a></li>
+    <li style="left: 0; top:0;"><a href="#"><span>일일편성표</span></a></li>
+    <li style="left: 0; top:0;"><a href="#"><span>마이페이지</span></a></li>
+  </ul>
+</div>
+
+<!-- footer s  -->
+<footer>
+  <div id="footer">
+    <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About Us</a></li>
+     <li class="end"><a href="#">Site map</a></li>
+    </ul>
+    <input type="button" value="로그인">
+    <input type="button" value="PC버전">
+    <input type="button" value="고객센터">
+    <p class="privacy">
+     <a href="#">개인정보처리방침</a>
+     <span class="bar">|</span>
+     <a href="#">이용약관</a>
+     <span class="bar">|</span>
+     <a href="#">이메일무단수집거부</a>
+    <span class="copyright">Copyright&copy; 2016 E&amp;M ALL RIGHTS RESERVED.</span><a class="top_btn" href="javascript:window.scrollTo(0,0);">TOP▲</a></p>
+  </div>
+</footer>
+<!-- footer e  -->
+</div>
+<!--wrap e--></body>
+</html>

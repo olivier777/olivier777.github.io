@@ -1,0 +1,38 @@
+/* 메인 컨텐츠 */
+#main { clear:both;}
+
+/* 슬라이드 공지사항 */
+
+.notice_con a{text-decoration:none; color:#333}
+.notice_con a:hover, a:active{color:#333; font-weight:bold;}
+section.notice {height:50px; background:#0D287D;}
+section .notice_con{height:30px; margin:0 15px;line-height:1em; border-radius:7px; position:relative; top:10px; background:#fff;}
+section .notice_con h1{font-size:13px; font-weight:bold; color:#5c5c5c; padding:8px 6%;}
+section .notice_con .slide_box{width:67%; height:15px; overflow:hidden; position:absolute; left:30%; top:8px;}
+section .notice_con .slide_box .slide{position:absolute;}
+section .notice_con .slide ul{font-size:13px;}
+section .notice_con .slide ul li{height:14px; overflow:hidden; text-overflow:clip; -o-text-overflow:clip; margin-bottom:5px;}
+
+/*최신영화 리스트*/
+#page{border:1px solid #d2d2d2; padding:10px 2%; margin:10px 5px; background:#fff;}
+#page h2{font-size:15px; color:#333; font-weight:600;padding:0 0 7px 1%;}
+#page p img{margin-bottom:5px;}
+/*예고*/
+section.movie{padding:10px 2%;border:1px solid #d2d2d2; margin:0 5px 10px 5px;background:#fff;box-sizing:border-box;}
+.movie video{width:100%;}
+.movie h2{font-size:15px; color:#333; font-weight:600; padding:0 0 7px 1%;}
+
+/*무비 매거진*/
+section.magazine{border:1px solid #d2d2d2; padding:10px 2%; margin:10px 5px; background:#fff;}
+.magazine h2{font-size:15px; color:#333; font-weight:600; padding:0 0 7px 1%;}
+.magazine li{overflow:hidden; height:100px; margin:0 5px 10px;}
+.magazine strong{display:block; font-size:14px;margin:5px 0;}
+.magazine .movie_img{float:left; width:70px; margin-bottom:5px;}
+.magazine .txt_box{display:block; padding-left:155px; color:#333; font-size:12px; text-align:left;line-height:1.5em}
+
+.more{display:block; width:100%; padding:8px 0; margin-top:8px; text-align:center;font-size:13px; color:#666; background:#ddd;}
+.more:hover, .more:active{font-weight:bold;}
+
+/*이벤트 배너*/
+.event{text-align:center; width:100%; height:100px; margin-bottom:10px; background:url(../images/back.png) repeat-x;}
+.event img{width:260px;margin-left:10px;vertical-align: middle}

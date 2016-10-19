@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="ko">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+ <title>:::::tvN Mobile:::::</title>
+ <style type="text/css">
+ @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+ </style>
+ <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+ <link rel="apple-touch-startup-image" href="startup.png">
+ <link href="css/common.css" rel="stylesheet">
+ <link href="css/sub2_content3.css" rel="stylesheet">
+<link rel="stylesheet" href="css/swiper.css">
+<link rel="stylesheet" href="css/movies-app.css">
+<style>
+    .gallery{position:relative; height:370px} /* 95(메뉴)+324(콘텐츠)  */
+</style>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/prefixfree.min.js"></script>
+<script src="js/idangerous.swiper-2.0.min.js"></script>
+<script src="js/movies-app.js"></script>
+<script src="js/navi.js"></script>
+<script src="js/plusicon.js"></script>
+<script src="js/search.js"></script>
+
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+</script>
+
+<!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  <div id="wrap">
+  <!--header s  -->
+  <header>
+    <div id="head">
+      <a href="index.html" id="logo"><h1 class="main_logo"><img src="images/logo.png" alt="tvN 로고"></h1></a>
+      <a href="#" id="left_menu"><img src="images/left_menu.png" alt="왼쪽 메뉴버튼"></a>
+      <a id="btn1"><span class="search_icon">검색하기</span></a>
+      <div class="box"></div>
+      <div id="nav">
+        <img class="arrow" src="images/arrow.png" alt="화살표">
+        <div class="all">
+          <h2>전체메뉴</h2>
+          <img id="close" src="images/close.png" alt="메뉴닫기버튼">
+        </div>
+        <div class="mainMenu">
+          <dl>
+          <dt><a href="#">ABOUT US</a></dt>
+              <dd><a href="sub1_1.html">회사소개</a></dd>
+              <dd><a href="#">CEO인사말</a></dd>
+              <dd><a href="sub1_2.html">오시는 길</a></dd>
+          </dl>
+          <dl>
+          <dt><a href="#">PROGRAM</a></dt>
+              <dd><a href="sub2_1.html">최신프로그램</a></dd>
+              <dd><a href="sub2_2.html">인기프로그램</a></dd>
+              <dd><a href="sub2_3.html">종영프로그램</a></dd>
+          </dl>
+          <dl>
+          <dt><a href="#">NEWS&nbsp;&amp;&nbsp;APPLY</a></dt>
+            <dd><a href="sub3_1.html">공지사항</a></dd>
+            <dd><a href="sub3_1.html">채용공고</a></dd>
+          </dl>
+        <a href="sub4_1.html" class="last">고객센터</a>
+      </div>
+      <ul>
+        <li><a href="#">마이페이지</a></li>
+        <li><a href="#">이벤트참여</a></li>
+      </ul>
+      </div>
+    </div>
+    <!--head e-->
+  <div id="content">
+  <form id="search" action="#" method="get">
+    <fieldset>
+      <legend>사이트 검색 입력</legend>
+      <div class="bg_search">
+        <div class="wrapBox">
+          <input type="text" name="input_search" class="type_text" title="검색어 입력" maxlength="255" placeholder="검색해주세요." />
+        </div>
+        <input type="submit" id="Btn" class="type_btn" title="검색" />
+      </div>
+    </fieldset>
+  </form>
+</div>
+<!--content e-->
+  <nav>
+   <ul class="main_menu">
+    <li><a href="sub1_1.html" title="company" class="tab_m">회사소개</a></li>
+    <li><a href="sub2_1.html" title="movies" class="tab_m">tvN프로그램</a></li>
+    <li><a href="sub3_1.html" title="notice" class="tab_m">공지사항</a></li>
+    <li><a href="sub4_1.html" title="고객센터">고객센터</a></li>
+   </ul>
+  </nav>
+<!--head e-->
+</header>
+
+ <!-- article s  -->
+ <nav>
+    <ul class="sub_menu">
+      <li><a href="sub2_1.html">최신프로그램</a></li>
+      <li><a href="sub2_2.html">인기프로그램</a></li>
+      <li><a href="sub2_3.html">종영프로그램</a></li>
+    </ul>
+  </nav>
+ <!-- article s  -->
+ <article>
+    <section class="gallery">
+
+            <!-- 슬라이더 내용 영역 -->
+
+  <div class="swiper-container swiper-content">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>미생</h1>
+          <img src="images/2014_1.jpg" alt="">
+          <div class="movie-text">
+            <ul>
+              <li><strong>연출</strong>: 김원석</li>
+              <li><strong>극본</strong> : 정윤정</li>
+              <li><strong>편성</strong> : 2014.10.17.~2014.12.20 / 총20부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>줄거리</strong> : 바둑이 인생의 모든 것이었던 장그래가 프로입단에 실패한 후,<br/>냉혹한 현실에 던져지면서 벌어지는 이야기를 그린 드라마 </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>오늘부터 출근</h1>
+          <img src="images/2014_2.jpg" alt="">
+          <div class="movie-text">
+            <ul>
+              <li><strong>장르</strong>: 예능</li>
+              <li><strong>제작진</strong> : 고민구PD</li>
+              <li><strong>편성</strong> : 2014.09.20.~2014.12.25 / 총15부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>프로그램소개</strong> : 연예인들이 한 직장에 입사해 실제 직장인들과 똑같이 5일 동안 출퇴근을 하며 생활하는 프로그램 </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>막돼먹은 영애씨 시즌13</h1>
+          <img src="images/2014_3.jpg" alt="막돼먹은 영애씨 시즌13">
+          <div class="movie-text">
+            <ul>
+              <li><strong>연출</strong>: 한상재, 윤재순, 박수원</li>
+              <li><strong>작가</strong> : 명수현, 한설희, 백선우, 최보림</li>
+              <li><strong>편성</strong> : 2014.03.27.~2014.07.10 / 총16부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>줄거리</strong> : 노처녀 캐릭터를 중심으로 대한민국 직장인의 현실을 담아낸 드라마 </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>로맨스가 더 필요해</h1>
+          <img src="images/2014_4.jpg" alt="로맨스가 더 필요해">
+          <div class="movie-text">
+            <ul>
+              <li><strong>장르</strong>: 예능</li>
+              <li><strong>연출</strong> : 연출 문태주, 주명수, 정희성, 장혜진, 나경덕</li>
+              <li><strong>편성</strong> : 2014.03.22.~2014.10.30 / 총31부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>프로그램소개</strong> : 누구에게나 로맨스는 있다. 10대 첫사랑, 20대 연애, 30대 결혼, 40대 로맨스 연애 it 수다. 시청자들이 보낸 다양한 연애 고민을 들어보는 시간. 고민과 관련된 로맨스 빅 데이터 가동. 속 시원해지는 솔루션까지 완벽하게 제공. 이 사람과 결혼해도 될까요? '이 결혼, 해야 할...</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>잉여공주</h1>
+          <img src="images/2014_5.jpg"  alt="잉여공주">
+          <div class="movie-text">
+            <ul>
+              <li><strong>연출</strong>: 백승룡</li>
+              <li><strong>극본</strong> : 지은이, 박란, 김지수</li>
+              <li><strong>편성</strong> : 2014.08.07.~2014.10.09 / 총10부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>줄거리</strong> : 사랑 찾아 물오른 인어공주의 서울 로맨스를 그린 로맨틱 판타지 드라마 </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>두 남자의 특급찬양</h1>
+          <img src="images/2014_6.jpg"  alt="두 남자의 특급찬양">
+          <div class="movie-text">
+            <ul>
+              <li><strong>장르</strong>: 예능</li>
+              <li><strong>제작진</strong> : 전수연PD</li>
+              <li><strong>편성</strong> : 2014.07.14.~2014.09.30 / 총11부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>프로그램소개</strong> : 매회 다양한 주제의 2가지 핫 아이템을 놓고 두 MC가 각각 반대편에 서서 최고를 선정하기 위해 입담 대결을 펼치는 연예계 신개념 배틀 쇼</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>고교처세왕</h1>
+          <img src="images/2014_7.jpg"  alt="고교처세왕">
+          <div class="movie-text">
+            <ul>
+              <li><strong>연출</strong>: 유제원</li>
+              <li><strong>극본</strong> : 양희승, 조성희</li>
+              <li><strong>편성</strong> : 2014.06.16.~2014.08.11 / 총17부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>줄거리</strong> : 18세 본부장님의 아슬아슬 이중생활을 그린 드라마 </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>이웃집 꽃미남</h1>
+          <img src="images/2013_1.jpg" alt="이웃집 꽃미남">
+          <div class="movie-text">
+            <ul>
+              <li><strong>연출</strong>: 정정화</li>
+              <li><strong>극본</strong> : 김은정</li>
+              <li><strong>편성</strong> : 2013.01.07.~2013.02.26 / 총16부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>줄거리</strong> : 상처를 끌어안고 성 속에 스스로를 가둔 '도시형 라푼젤' 캐릭터인 고독미가 앞집 남자를 몰래 훔쳐보다, 연하 꽃미남 엔리케 금에게 발각되면서 펼쳐지는 로맨틱 드라마 </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>응답하라 1994</h1>
+          <img src="images/2013_2.jpg" alt="응답하라 1994">
+          <div class="movie-text">
+            <ul>
+              <li><strong>연출</strong>: 신원호</li>
+              <li><strong>극본</strong> : 이우정</li>
+              <li><strong>편성</strong> : 2013.10.18.~2013.12.28 / 총21부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>줄거리</strong> : 1994년을 배경으로, 지방 사람들의 눈물겨운 상경기와 농구대잔치, 서태지와 아이들 등의 사회적 이슈를 담은 드라마 </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>김미경 쇼</h1>
+          <img src="images/2013_3.jpg" alt="김미경 쇼">
+          <div class="movie-text">
+            <ul>
+              <li><strong>장르</strong>: 예능</li>
+              <li><strong>편성</strong> : 2013.01.11.~2013.03.29 / 총11부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>프로그램소개</strong> : 어른이 되면 꿈을 이루라고 한다. 하지만, 정작 꿈을 어떻게 이루는지 가르쳐주지 않는다. 그래서 상처받고 혼란스러워하고, 평생을 방황한다. 엄마의 스케쥴대로 살았던 20대, 30대들이 이제 꿈을 찾으려고 하니, 어떻게 찾는지 어떻게 꿈을 이루는지 알 길이 없다. 드림워커 교주 김...</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>연애조작단; 시라노</h1>
+          <img src="images/2013_4.jpg" alt="연애조작단; 시라노">
+          <div class="movie-text">
+            <ul>
+              <li><strong>연출</strong>: 강경훈</li>
+              <li><strong>극본</strong> : 신재원</li>
+              <li><strong>편성</strong> : 2013.05.27.~2013.07.16 / 총16부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>줄거리</strong> : 연애에 서투른 사람들을 대신해 사랑을 이뤄주는 '연애조작단'을 중심으로 한 사랑과 연애에 대한 달달한 이야기 </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>꽃보다 누나</h1>
+          <img src="images/2013_5.jpg" alt="꽃보다 누나">
+          <div class="movie-text">
+            <ul>
+              <li><strong>장르</strong>: 예능</li>
+              <li><strong>연출</strong> : 나영석PD</li>
+              <li><strong>편성</strong> : 2013.11.29.~2014.01.17 / 총8부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>프로그램소개</strong> : '꽃보다 할배'에 이어 연예인의 해외 배낭 여행기를 담은 리얼 버라이어티 프로그램</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>막돼먹은 영애씨 시즌12</h1>
+          <img src="images/2013_6.jpg" alt="막돼먹은 영애씨 시즌12">
+          <div class="movie-text">
+            <ul>
+              <li><strong>연출</strong>: 한상재, 윤재순</li>
+              <li><strong>작가</strong> : 명수현, 한설희, 백선우, 최보림, 이시은</li>
+              <li><strong>편성</strong> : 2013.07.18.~2013.11.14 / 총18부작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>줄거리</strong> : 노처녀 캐릭터를 중심으로 대한민국 직장인의 현실을 담아낸 드라마 </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="inner">
+          <h1>더 지니어스 : 게임의 법칙</h1>
+          <img src="images/2013_7.jpg" alt="">
+          <div class="movie-text">
+            <ul>
+              <li><strong>장르</strong>: 예능</li>
+              <li><strong>연출</strong> : 정종연, 김한규</li>
+              <li><strong>편성</strong> : 2013.04.26.~2013.07.12 / 총12작 / 15세이상 관람가 / 방송종료</li>
+              <li><strong>프로그램소개</strong> : 방송인, 갬블러, 정치인 등 다양한 직업군을 대표하는 13인의 도전자가 게임을 통해 최후의 1인이 되기 위한 숨막히는 심리전을 벌이는 리얼리티 쇼</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>  
+    </div>
+  </div>
+           <!-- 슬라이더 메뉴 영역 -->
+
+  <div class="swiper-container swiper-nav">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2014_1.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2014_2.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2014_3.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2014_4.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2014_5.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2014_6.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2014_7.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2013_1.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2013_2.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2013_3.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2013_4.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2013_5.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2013_6.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <span class="angle"></span>
+        <img src="images/2013_7.jpg" alt="">
+      </div>
+    </div>
+  </div>
+   </section>
+
+<section class="event">
+  <img src="images/event.png" alt="막돼먹은영애씨 이벤트">
+</section>
+ </article>
+ <!-- article e  -->  
+
+  
+<div class="bottom">
+  <a id="plus">플러스 메뉴</a>
+  <ul class="menu_option">
+    <li style="left: 0; top:0;"><a href="sub2_3.html"><span>tvN프로그램</span></a></li>
+    <li style="left: 0; top:0;"><a href="#"><span>일일편성표</span></a></li>
+    <li style="left: 0; top:0;"><a href="#"><span>마이페이지</span></a></li>
+  </ul>
+</div>
+
+<!-- footer s  -->
+<footer>
+  <div id="footer">
+    <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About Us</a></li>
+     <li class="end"><a href="#">Site map</a></li>
+    </ul>
+    <input type="button" value="로그인">
+    <input type="button" value="PC버전">
+    <input type="button" value="고객센터">
+    <p class="privacy">
+     <a href="#">개인정보처리방침</a>
+     <span class="bar">|</span>
+     <a href="#">이용약관</a>
+     <span class="bar">|</span>
+     <a href="#">이메일무단수집거부</a>
+    <span class="copyright">Copyright&copy; 2016 E&amp;M ALL RIGHTS RESERVED.</span><a class="top_btn" href="javascript:window.scrollTo(0,0);">TOP▲</a></p>
+  </div>
+</footer>
+<!-- footer e  -->
+</div>
+<!--wrap e--></body>
+</html>
