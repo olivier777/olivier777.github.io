@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>IR::재무정보</title>
+<style type="text/css">
+@import url(http://fonts.googleapis.
+    com/earlyaccess/nanumgothic.css);
+</style>
+<link href="../common/css/common.css" type="text/css" rel="stylesheet" />
+<link href="common/css/sub5common.css" type="text/css" rel="stylesheet" />
+<link href="css/sub5_content1.css" type="text/css" rel="stylesheet" />
+<script src="../common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript" src="../common/js/common.js"></script>
+<script type="text/javascript" src="../common/js/select.js"></script>
+<script src="../common/js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script type="text/javascript" src="../common/js/move-top.js"></script>
+<script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){     
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+            });
+            
+            var defaults = {
+                    containerID: 'toTop', // fading element id
+                    containerHoverID: 'toTopHover', // fading element hover id
+                    scrollSpeed: 1200,
+                    easingType: 'linear' 
+                };
+                $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+</script>
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#navi">글로벌 네비게이션 바로가기</a>
+        <a href="#ticket">영화 예매 바로가기</a>
+</div>
+<!--skipNav e-->
+
+    <div id="header">
+        <div class="headerInner">
+            <div class="headertop">
+                <div class="sns">
+                    <ul>
+                        <li><a href="#" class="fb">페이스북 바로가기</a></li>
+                        <li><a href="#" class="tw">트위터 바로가기</a></li>
+                        <li><a href="#" class="yt">유투브 바로가기</a></li>
+                    </ul>
+                </div>
+                <!--sns e-->
+                <div class="quick">
+                    <ul>
+                        <li><a href="#"><img src="../common/images/btn1.jpg" alt="로그인 바로가기" /></a></li>
+                        <li><a href="#" ><img src="../common/images/btn2.jpg" alt="사이트맵 바로가기" /></a></li>
+                        <li><a href="#"><img src="../common/images/btn3.jpg" alt="영문홈페이지 바로가기" /></a></li>
+                    </ul>
+                </div>
+                <!--quick e-->
+                <div class="search">
+                    <label for="search" class="hidden">검색하세요.</label>
+                    <input type="text" id="search" value="검색하세요." title="검색 입력칸"/>
+                    <button type="submit" id="search_submit">검색</button>
+                </div>
+            </div>
+            <!--headertop e-->
+        </div>
+        <!--headerInner e-->
+        <div class="headermenu_wrap">
+            <div class="headermenu">
+            	<h1>
+                    <a href="../index.html" class="logo">tvN 로고</a>
+                </h1>
+
+            <div id="navi">
+                <h2 class="hidden">글로벌 네비게이션 영역</h2>
+                <ul class="dropdownmenu">
+                <li class="m1 menu"><h3><a class="depth1" href="../sub1/sub1_1.html">ABOUT US</a></h3>
+                    <ul>
+                        <li><a href="../sub1/sub1_1.html" class="first">회사소개</a></li>
+                        <li><a href="../sub1/sub1_2.html">CEO MESSAGE</a></li>
+                        <li><a href="../sub1/sub1_3.html">회사연혁</a></li>
+                        <li><a href="../sub1/sub1_4.html" class="last">오시는길</a></li>
+                    </ul>
+                 </li>
+                 <li class="m2 menu"><h3><a class="depth1" href="../sub2/sub2_1.html">PROGRAM</a></h3>
+                    <ul>
+                        <li><a href="../sub2/sub2_1.html" class="first">최신프로그램</a></li>
+                        <li><a href="../sub2/sub2_2.html" class="last">인기프로그램</a></li>
+                    </ul>
+                </li>
+                <li class="m3 menu"><h3><a class="depth1" href="../sub3/sub3.html">PORTFOLIO</a></h3>  
+                </li>
+                <li class="m4 menu"><h3><a class="depth1" href="../sub4/sub4_1.html">NEWS&amp;APPLY</a></h3>
+                    <ul>
+                        <li><a href="../sub4/sub4_1.html" class="first">공지사항</a></li>
+                        <li><a href="../sub4/sub4_2.html" class="last">인재채용</a></li>
+                    </ul>
+                </li>
+
+                <li class="m5 menu"><h3><a class="depth1" href="../sub5/sub5_1.html">IR</a></h3>
+                    <ul>
+                        <li><a href="../sub5/sub5_1.html" class="first">재무정보</a></li>
+                        <li><a href="../sub5/sub5_2.html" class="last">IR자료실</a></li>
+                    </ul>
+                </li>
+                <!--<li class="m6 menu"><h3><a class="depth1" href="#">고객센터</a></h3>
+                </li>-->
+            </ul>
+            </div>
+            <!--navi e-->
+            </div>
+            <!--headermenu e-->
+        </div>
+        <!--headermenu_wrap e-->
+
+    </div>
+    <!--header e-->
+    <div class="container">
+		<div class="leftbox">
+			<div class="leftNav">
+				<h3>tvN IR</h3>
+		  		<div class="leftMenu">
+		      		<ul>
+		          		<li class="menu1"><a class="current" href="sub5_1.html">재무정보</a></li>
+		          		<li class="menu2"><a href="sub5_2.html">IR자료실</a></li>
+		      		</ul>
+		  		</div>
+			</div>
+			<div class="banner">
+				<a href="#"><img src="common/images/banner1.jpg" alt="" /></a>
+				<a href="#"><img src="common/images/banner2.jpg" alt="" /></a>
+			</div>
+		</div>
+		<!--leftbox e-->
+        <div id="content">
+        	<div class="titleArea">
+                <div class="lineMap">
+                    <a href="../index.html">HOME </a> &gt; <span>IR정보</span> &gt; <strong>재무정보</strong>
+                </div>
+                <!-- lineMap e -->
+        	    <h2>공시정보</h2>
+                <p>성공적인 투자를 위한 재무정보를 공개합니다.</p>
+            </div>
+        	<!-- titleArea e -->
+            <div class="contentArea">
+                <img class="visual" src="images/content1/img.jpg" alt="영화 배급 투자사 넘버원 회사로 거듭나겠습니다." />
+                <ul>
+                    <li>
+                    <div class="sheet">
+                        <img src="images/content1/sheet1.jpg" alt="연도별 대차대조표" />
+                        <span>[단위:백만원]</span>
+                        <table summary="연도별 대차대조표를 계정과목과 연도별로 확인할 수 있습니다." class="balance">
+                        <caption class="hidden">연도별 대차대조표</caption>
+                        <colgroup>
+                            <col style="width:25%" />
+                            <col style="width:25%" />
+                            <col style="width:25%" />
+                            <col style="width:25%" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">계정과목</th>
+                                <th scope="col" class="col">2014년 1Q</th>
+                                <th scope="col" class="col">2013년</th>
+                                <th scope="col" class="col">2012년</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">유동자산</th>
+                                <td>123,403</td>
+                                <td>117,273</td>
+                                <td>142,340</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">비유동자산</th>
+                                <td>44,829</td>
+                                <td>50,086</td>
+                                <td>38,910</td>
+                            </tr>
+                            <tr class="last">
+                                <th scope="row">자산총계</th>
+                                <td>166,232</td>
+                                <td>167,359</td>
+                                <td>181,250</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">유동부채</th>
+                                <td>62,882</td>
+                                <td>61,811</td>
+                                <td>81,219</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">비유동부채</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>541</td>
+                            </tr>
+                            <tr class="last">
+                                <th scope="row">부채총계</th>
+                                <td>62,960</td>
+                                <td>61,811</td>
+                                <td>81,761</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">자본금</th>
+                                <td>31,300</td>
+                                <td>31,300</td>
+                                <td>31,300</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">자본잉여금</th>
+                                <td>36,265</td>
+                                <td>36,265</td>
+                                <td>36,202</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">자본조정</th>
+                                <td class="minus">(318)</td>
+                                <td class="minus">(318)</td>
+                                <td>744</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">기타포괄손익누계액</th>
+                                <td class="minus">(1,000)</td>
+                                <td class="minus">(990)</td>
+                                <td class="minus">(1,100)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">이익잉여금</th>
+                                <td>38,265</td>
+                                <td>36,265</td>
+                                <td>33,504</td>
+                            </tr>
+                            <tr class="last">
+                                <th scope="row">자본총계</th>
+                                <td>105,272</td>
+                                <td>105,549</td>
+                                <td>99,490</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    <!--div sheet e-->
+                    </li>
+                    <li>
+                    <div class="Income">
+                        <img src="images/content1/sheet2.jpg" alt="분기별 손익계산서" />
+                        <span>[단위:백만원]</span>
+                        <table summary="분기별 손익계산서를 계정과목과 연도별로 확인할 수 있습니다.">
+                        <caption class="hidden">분기별 손익계산서</caption>
+                        <colgroup>
+                            <col style="width:25%" />
+                            <col style="width:25%" />
+                            <col style="width:25%" />
+                            <col style="width:25%" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">계정과목</th>
+                                <th scope="col" class="col">2014년 1Q</th>
+                                <th scope="col" class="col">2013년 4Q</th>
+                                <th scope="col" class="col">2013년 3Q</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">매출액</th>
+                                <td>12,327</td>
+                                <td>29,384</td>
+                                <td>36,571</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">매출원가</th>
+                                <td>11,111</td>
+                                <td>24,473</td>
+                                <td>35,534</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">매출총이익</th>
+                                <td>1,216</td>
+                                <td>4,911</td>
+                                <td>1,037</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">판매비와관리비</th>
+                                <td>1,724</td>
+                                <td>3,710</td>
+                                <td>1,447</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">기타영업수익</th>
+                                <td>14</td>
+                                <td>21</td>
+                                <td>16</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">기타영업비용</th>
+                                <td>0</td>
+                                <td>463</td>
+                                <td>365</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">영업이익</th>
+                                <td class="minus">-508</td>
+                                <td>1,202</td>
+                                <td class="minus">-410</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">금융수익</th>
+                                <td>457</td>
+                                <td>406</td>
+                                <td>251</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">금융비용</th>
+                                <td>0</td>
+                                <td>39</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">법인세비용차감전순이익</th>
+                                <td class="minus">-267</td>
+                                <td>862</td>
+                                <td class="minus">-1,496</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">법인세비용</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">당기순이익</th>
+                                <td class="minus">-267</td>
+                                <td>862</td>
+                                <td class="minus">-1,496</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    <!--Income e-->
+                    </li>
+                </ul>
+            </div>
+            <!--contentArea e-->
+        </div>
+        <!--content e-->
+    </div>
+    <!--container-->
+
+    <div id="footer">   
+    <div class="footerInner">
+        <div class="footleft">
+            <img src="../images/footerlogo.jpg" class="logo" alt="쇼박스 로고" />
+            <ul class="company">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">제휴문의</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li class="privacy"><a href="#">개인정보취급방침</a></li>
+            </ul>
+            <div class="info">
+                <ul>
+                    <li><address>서울특별시 마포구 상암산로 66 (상암동) CJ이앤엠센터</address></li>
+                        <li>방송편성문의 : 080-080-0780/0781  l  사이트/동영상문의 : 1566-2226</li>
+                        <li>사업자등록번호 : 114-86-83380통신판매신고번호 : 2011-서울마포-0404</li>
+                        <li><p>Copyright (C) CJ E&amp;M All rigths reserved.</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footright">
+            <div class="select open" style="width:200px;">
+                <span class="ctrl"><span class="arrow">family site 화살표</span></span>
+                <button type="button" class="myValue">Family site 바로가기</button>
+                <ul class="aList">
+                        <li><a href="#">CJ주식회사</a></li>
+                        <li><a href="#">CJ E&amp;M</a></li>
+                        <li><a href="#">CJ CGV</a></li>
+                        <li><a href="#">CJ헬로비전</a></li>
+                        <li><a href="#">CJ파워캐스트</a></li>
+                        <li><a href="#">CJ제일제당</a></li>
+                        <li><a href="#">CJ프레시웨이</a></li>
+                        <li><a href="#">CJ푸드빌</a></li>
+                        <li><a href="#">CJ엠디원</a></li>
+                </ul>
+            </div>
+            <ul class="sns">
+                <li><a href="#"><img src="../common/images/footer_fb.jpg" alt="페이스북 바로가기" /></a></li>
+                <li><a href="#"><img src="../common/images/footer_tw.jpg" alt="트위터 바로가기" /></a></li>
+                <li><a href="#"><img src="../common/images/footer_yt.jpg" alt="유투브 바로가기" /></a></li>
+            </ul>
+                <p><br /><a href="http://validator.kldp.org/check?uri=referer"
+      onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+      src="http://validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid XHTML 1.0 Transitional" height="15" width="80" /></a></p>
+                <a href="http://toel777.cafe24.com/tvn/mobile/index.html"><input type="button" value="모바일버전" style="cursor:pointer" /></a>
+        </div>
+        <!--footright e-->
+    </div>
+    <!--footerwrap e-->
+</div>
+<!--footer e-->
+
+<div class="topbtn">
+    <a href="#" id="toTop">
+    <span id="toTopHover"><img src="../common/images/top.png" alt="상단으로이동" /></span></a>
+    <!--end scroll_top_btn -->
+</div>
+</body>
+</html>

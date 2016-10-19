@@ -1,0 +1,26 @@
+/* CSS Document */
+
+.leftNav .leftMenu li a.current{background: url(../common/images/sub5_hover1.jpg);} 
+
+#content{width:690px; padding:40px; float:right;}
+.titleArea{height:91px; position:relative; border-bottom:1px solid #ccc;}
+.titleArea .lineMap{position:absolute;right:0; top:-15px; font-size:11px; color:#666; padding-left:20px; background:url(../common/images/home.jpg) left center no-repeat;}
+.titleArea .lineMap a{color:#666;}
+.titleArea h2{overflow:hidden;width:112px;height:28px;background:url(../images/content1/title1.jpg); text-indent:-999px}
+.titleArea p{overflow:hidden;width:390px;height:23px;background:url(../images/content1/title2.jpg); text-indent:-999px; margin-top:5px;}
+
+.contentArea{padding:50px 45px;}
+.contentArea .visual{margin-bottom:40px;}
+.contentArea .sheet{position:relative;}
+.contentArea .minus{color:red;}
+.contentArea .sheet span{position:absolute; top:30px; right:0; color:#999;}
+.contentArea .sheet .Income{margin-top:30px;}
+.contentArea table{margin-top:10px; width:600px; border-top:2px solid #666; text-align:center;}
+.contentArea table thead{border-bottom:2px solid #999; background:#ffc;}
+.contentArea table thead .col{border-left:1px solid #ccc;}
+.contentArea table tr{border-bottom:1px solid #ccc}
+.contentArea table th, td{padding:10px 5%;}
+.contentArea table td{border-left:1px solid #ccc;}
+.contentArea table .last{border-bottom:solid 1px #999;}
+.contentArea .Income{position:relative; margin-top:30px;}
+.contentArea .Income span{position:absolute; top:30px; right:0; color:#999;}

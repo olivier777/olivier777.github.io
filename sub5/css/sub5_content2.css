@@ -1,0 +1,30 @@
+/* CSS Document */
+
+.leftNav .leftMenu li a.current{background: url(../common/images/sub5_hover2.jpg);} 
+
+#content{width:690px; padding:40px; float:right;}
+.titleArea{height:91px; position:relative; border-bottom:1px solid #ccc;}
+.titleArea .lineMap{position:absolute;right:0; top:-15px; font-size:11px; color:#666; padding-left:20px; background:url(../common/images/home.jpg) left center no-repeat;}
+.titleArea .lineMap a{color:#666;}
+.titleArea h2{overflow:hidden;width:112px;height:28px;background:url(../images/content2/title1.jpg); text-indent:-999px}
+.titleArea p{overflow:hidden;width:403px;height:23px;background:url(../images/content2/title2.jpg); text-indent:-999px; margin-top:5px;}
+
+.contentArea{padding:50px 45px; position:relative;}
+.contentArea .btn{margin-left:100px}
+.contentArea .btn img{margin-right:10px;}
+.contentArea .search{overflow:hidden; position:absolute; top:120px; right:45px; border:1px solid #ccc; 
+	height:20px; width:180px;}
+.contentArea .search select{float:left; border:0; height:20px; text-align:center;}
+.search input{width:110px; height:20px; float:left; border:0;}
+.search img{float:right; width:20px; height:20px;}
+.contentArea table img{width:20px; height:25px;}
+.contentArea table{margin-top:80px; width:600px; border-top:2px solid #666; text-align:center;}
+.contentArea table thead{border-bottom:2px solid #999;}
+.contentArea table tr{border-bottom:1px solid #ccc}
+.contentArea table th, td{height:35px;}
+.contentArea table .link{text-align: left; padding:0 20px;}
+.contentArea a:hover{text-decoration:underline; color:#fc0;}
+.contentArea p.paging{margin:20px 0; text-align:center; height:21px; vertical-align:center;}
+.contentArea span{margin:0 10px;}
+.contentArea p img{vertical-align:middle;}
+.contentArea p span a, strong{margin:0 5px; font-size:1.1em; width:21px; height:21px;}
