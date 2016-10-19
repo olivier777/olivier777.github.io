@@ -1,0 +1,109 @@
+/* CSS Document */
+body{font-family:'나눔고딕', 'NanumGothic', '맑은 고딕', 'Malgun Gothic', '돋움', dotum, 'Apple SD Gothic Neo', sans-serif;}
+
+.mainwrap{position:relative; margin-top:108px;}
+#main{width:1000px; margin:0 auto; height:400px; position:relative; overflow:hidden;}
+.gallery{position:relative;overflow:hidden; width:4000px; height:400px;left:0; top:0;}
+.gallery ul li{ float:left; list-style:none; }
+
+.dock{width:330px; position:absolute; left:430px; top:370px;}
+.dock span.mbutton, .ps{margin-right:13px; cursor:pointer; float:left; width:15px; height:15px; background:url(../images/bnt.png); text-indent:-999px; overflow:hidden;}
+.dock span.ps{background:url(../images/stop.png)}
+.mainwrap .skipleft{display:block; width:35px; height:53px; position:absolute; top:200px; right:50%; margin-right:540px;}
+.mainwrap .skipright{display:block; width:35px; height:53px; position:absolute; top:200px; left:50%; margin-left:540px;}
+
+#content .conTop{width:1000px; margin:0 auto; padding-top:35px; height:254px; overflow:hidden;}
+#content .conTop .movie_now{float:left; width:660px; height:254px; overflow:hidden; position:relative;}
+#content .conTop .movie_now .new{overflow:hidden; width:660px; height:225px;}
+#content .conTop .movie_now .trailer{float:left; width:330px; height:225px}
+#content .conTop .movie_now .info{float:right; position:relative; background:#eee; width:290px; height:185px; padding:20px 20px}
+#content .conTop .movie_now .info dt{font-weight:bold; font-size:16px; line-height:1.8em;}
+#content .conTop .movie_now .info dt span{font-weight:bold; font-size:14px; line-height:1.8em;}
+#content .conTop .movie_now .info dd {color:#666;}
+#content .conTop .movie_now .info dd span{display:block; margin-top:10px; line-height:1.5em; color:#333;}
+#content .conTop .movie_now .info .heart{width:48px; height:41px; position:absolute; bottom:13px; right:60px; text-indent:-999px; overflow:hidden; background:url(../images/heart_1.png) 0 0 no-repeat;}
+#content .conTop .movie_now .info .heart:hover{background:url(../images/hover_1.png) 0 0 no-repeat}
+#content .conTop .movie_now .info .trailer{width:48px; height:41px; position:absolute; bottom:13px; right:12px; text-indent:-999px; overflow:hidden; background:url(../images/heart_2.png) 0 0 no-repeat;}
+#content .conTop .movie_now .info .trailer:hover{background:url(../images/hover_2.png) 0 0 no-repeat}
+#content .conTop .movie_now a.plus{width:21px; height:29px; position:absolute; top:0; right:0; text-indent:-999px; overflow:hidden; background:url(../images/plus.jpg) 0 0 no-repeat;}
+
+#content .conTop .quick_bn{float:right; width:320px; padding-left:20px; overflow:hidden}
+#content .conTop .quick_bn li{margin-bottom:15px; width:320px; overflow:hidden}
+#content .conTop .quick_bn a.newmore{display:block; width:640px; height:64px;position:relative;left:0;top:0;}
+#content .conTop .quick_bn a.preview{display:block; width:640px; height:64px;position:relative;left:0;top:0}
+#content .conTop .quick_bn a#ticket{display:block; width:640px; height:64px;position:relative;left:0;top:0}
+
+#content .conMiddle{overflow:hidden; padding-top:35px; width:1000px; margin:0 auto;}
+#content .conMiddle .midleft{position:relative; float:left; width:490px; height:296px; overflow:hidden;}
+#content .conMiddle .midleft .comingsoon {overflow:hidden; position:relative; width:490px; height:266px}
+#content .conMiddle .midleft .movieinfo {position:relative; overflow:hidden; width:100%; height:266px; background:#FAD9EC; color:#000}
+#content .conMiddle .midleft .movieinfo .image{float:left; width:187px; height:266px;}
+#content .conMiddle .midleft .movieinfo dl{margin:20px; float:right; width:263px; text-align:justify;}
+
+#content .conMiddle .movieinfo .heart{width:48px; height:41px; position:absolute; bottom:20px; right:68px; text-indent:-999px; overflow:hidden; background:url(../images/heart_1.png) 0 0 no-repeat;}
+#content .conMiddle .movieinfo .heart:hover{background:url(../images/hover_1.png) 0 0 no-repeat}
+#content .conMiddle .movieinfo .trailer{width:48px; height:41px; position:absolute; bottom:20px; right:20px; text-indent:-999px; overflow:hidden; background:url(../images/heart_2.png) 0 0 no-repeat;}
+#content .conMiddle .movieinfo .trailer:hover{background:url(../images/hover_2.png) 0 0 no-repeat}
+#content .conMiddle .movieinfo dl dt{font-weight:bold; font-size:16px; line-height:1.8em;}
+#content .conMiddle .movieinfo dl span,dd{display:block;color:#999;}
+#content .conMiddle .movieinfo dd p{margin:10px 0; line-height:1.8em; color:#ccc;}
+#content .conMiddle .midleft a.left{width:19px; height:30px; position:absolute; top:0; right:17px; text-indent:-999px; overflow:hidden; background:url(../images/left.jpg) 0 0 no-repeat;}
+#content .conMiddle .midleft a.right{width:20px; height:30px; position:absolute; top:0; right:-5px; text-indent:-999px; overflow:hidden; background:url(../images/right.jpg) 0 0 no-repeat;}
+
+#content .conMiddle .midright{float:right; width:490px; height:296px; padding:0 0 0 20px; position:relative;}
+#content .conMiddle .midright .news{padding:20px; height:224px; background:#fff; border:solid 1px #ccc; overflow:hidden;}
+#content .conMiddle .midright .news li{float:left; width:214px;}
+#content .conMiddle .midright .news a:hover{text-decoration:underline;}
+#content .conMiddle .midright .news .news1{margin-right:20px;}
+#content .conMiddle .midright .news img{margin-bottom:10px;}
+#content .conMiddle .midright .news li{position:relative;}
+#content .conMiddle .midright .news dl dt{font-weight:bold; font-size:13px; line-height:2em;}
+#content .conMiddle .midright .news dl dd{color:#333;}
+#content .conMiddle .midright .news .date{position:absolute; top:128px; right:0; color:#666;}
+#content .conMiddle .midright a.plus{width:21px; height:29px; position:absolute; top:0; right:0; text-indent:-999px; overflow:hidden; background:url(../images/plus.jpg) 0 0 no-repeat;}
+
+#content .conBottom{width:1000px; margin:0 auto; overflow:hidden; padding-top:35px;}
+#content .conBottom .facebook{float:left; width:490px; overflow:hidden;}
+#content .conBottom .facebook .fblike{padding:30px 0 20px 20px; height:217px; border:1px solid #ccc; background:url(../images/fb.jpg) 0 0 no-repeat;}
+#content .conBottom .facebook .fblike img,.profile{float:left; margin-top:20px;}
+#content .conBottom .facebook .fblike .profile{margin-right:10px;}
+#content .conBottom .facebook .snsContent{float:right; width:300px; height:219px; line-height:1.5em;}
+#content .conBottom .facebook .content{padding:20px 20px 0 0; height:219px; overflow-y:scroll;}
+#content .conBottom .facebook .content span{color:#006; font-weight:bold;}
+#content .conBottom .facebook .content span.date{display:block; color:#999; font-size:11px; line-height:1.5em; margin:5px 0;}
+#content .conBottom .facebook .content p{margin-bottom:10px;}
+#content .conBottom .recruit{float:left; width:234px; height:297px; padding-left:20px; position:relative;}
+#content .conBottom .recruit .rcbox{padding:20px; height:227px; width:194px; background:#333;}
+#content .conBottom .recruit .rcbox ul li{margin-bottom:8px;}
+#content .conBottom .recruit .rcbox ul li a{color:#ccc;}
+#content .conBottom .recruit .rcbox ul li a:hover{text-decoration:underline; color:#ccc;}
+#content .conBottom .recruit .rcbox span{color:#f90; font-weight:bold;}
+#content .conBottom .recruit a.plus{width:21px; height:29px; position:absolute; top:0; right:0; text-indent:-999px; overflow:hidden; background:url(../images/plus.jpg) 0 0 no-repeat;}
+#content .conBottom .banner{position:relative; float:right; width:234px; height:297px; padding-left:20px; overflow:hidden; position:relative;}
+#content .conBottom .banner .sub{overflow:hidden;}
+#content .conBottom .banner .sub .submit{position:absolute; top:120px; left:43px; height:20px; width:166px; background:url(../images/search1.jpg) 0 0 no-repeat; border:0;}
+#content .conBottom .banner .email_input{float:left; height:19px; width:80%; font-size:1.0em; color:#666; border:0; margin-left:5px; background:transparent; outline:none;}
+#content .conBottom .banner .email_btn{float:right; width:20px; height:20px; margin-left:5px; background:url(../images/search2.jpg); text-indent:-999px; overflow: hidden; cursor:pointer;border:0} 
+#content .conBottom .banner .sub{margin-bottom:7px;}
+#content .conBottom .banner .event{position:relative;}
+#content .conBottom .banner .event .plus{width:66px; height:24px; position:absolute; top:80px; left:31px; text-indent:-999px; overflow:hidden; background:url(../images/banner_plus.jpg) 0 0 no-repeat;}
+#content .conBottom .banner .event .plus:hover{width:66px; height:24px; background:url(../images/banner_hover.jpg) 1px 1px no-repeat; border:0;}
+#content .conBottom .banner a.plus{width:21px; height:29px; position:absolute; top:0; right:0; text-indent:-999px; overflow:hidden; background:url(../images/plus.jpg) 0 0 no-repeat;}
+
+.Slidewrap{position:relative;}
+#content .historywrap{width:1000px; margin:30px auto; position:relative; overflow:hidden;} 
+#content .history {width:2040px; height:396px; background:url(../images/history_bg.jpg) bottom center repeat-x; position:relative; left:0; top:0;}
+#content .historywrap h3{text-align:center; background:url(../images/history_bg.jpg) 0 0 repeat-x; margin-bottom:20px;}
+#content .movielists{overflow:hidden; height:336px;position:absolute;}
+#content .history li{float:left; margin:0 20px 0 0; width:235px; height:336px; overflow:hidden;}
+
+#movie1 .back{overflow:hidden; text-indent:-999px; background:url(../images/hover_1.jpg) no-repeat;}
+#movie2 .back{overflow:hidden; text-indent:-999px; background:url(../images/hover_2.jpg) no-repeat;}
+#movie3 .back{overflow:hidden; text-indent:-999px; background:url(../images/hover_3.jpg) no-repeat;}
+#movie4 .back{overflow:hidden; text-indent:-999px; background:url(../images/hover_4.jpg) no-repeat;}
+#movie5 .back{overflow:hidden; text-indent:-999px; background:url(../images/hover_5.jpg) no-repeat;}
+#movie6 .back{overflow:hidden; text-indent:-999px; background:url(../images/hover_6.jpg) no-repeat;}
+#movie7 .back{overflow:hidden; text-indent:-999px; background:url(../images/hover_7.jpg) no-repeat;}
+#movie8 .back{overflow:hidden; text-indent:-999px; background:url(../images/hover_8.jpg) no-repeat;}
+.Slidewrap .skipleft{position:absolute; top:200px;  right:50%; margin-right:540px;}
+.Slidewrap .skipright{position:absolute; top:200px; left:50%; margin-left:540px;}
