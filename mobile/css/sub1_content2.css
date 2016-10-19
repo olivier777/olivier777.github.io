@@ -1,0 +1,22 @@
+/* sub1_1의 내용 콘텐츠 */
+.main_menu li:nth-child(1) a{background:#333; color:#fc0;}
+.sub_menu{overflow:hidden;}
+.sub_menu li:nth-child(2) a{border-right:solid #ccc 1px; border-bottom:3px #333 solid}
+.sub_menu li a{display:block; box-sizing:border-box; width:50%; float:left; text-align: center; background:#fff; color:#333; font-size:13px; padding:8px 0}
+
+.map{padding:0 2% 10px;margin:0 0 10px 0; background:#fff;}
+#map_canvas{width:100%; height:200px;}
+h2{padding:10px; margin-bottom:3px; font-size:15px; color:#333; font-weight:600; text-align:center;}
+table{width:100%; background:#fff; margin-top:15px; font-size:13px;}
+tr{height:35px; border:1px solid #333;}
+tr:nth-child(2n+1){background:#efefef;}
+th{width:30%;}
+td{width:70%; padding:5px 20px;}
+
+.public{padding:10px 2%; margin:10px 0; background:#fff;}
+.publicbox{box-sizing:border-box;padding:10px 2%; width:100%; border:1px solid #ccc; font-size:13px; overflow:hidden;}
+.publicbox li:nth-child(1){border-bottom:2px dotted #ccc}
+.publicbox p{padding:10px 0 5px 35%;}
+.publicbox .bus{box-sizing:border-box;overflow:hidden;}
+.publicbox .subway{box-sizing:border-box; overflow:hidden;}
+.publicbox img{width:60px; margin:15px;float:left;}

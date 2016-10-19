@@ -1,0 +1,14 @@
+/* sub2_2의 내용 콘텐츠 */
+.main_menu li:nth-child(2) a{background:#333; color:#fc0;}
+.sub_menu{overflow:hidden;}
+.sub_menu li:nth-child(2) a{border-bottom:3px #333 solid}
+.sub_menu li a{display:block; box-sizing:border-box; width:33.33%; float:left; text-align: center; background:#fff; color:#333; font-size:13px; padding:8px 0}
+
+.moviesoon{padding:10px 2%;}
+h1{padding:0 0 0 10px ;font-size:16px; font-weight:600;position:absolute; left:50%; margin-left:-75px;}
+.moviesoon li{overflow:hidden; background:#fff; font-size:13px; line-height:1.5em;}
+.moviesoon .list{border-bottom: 1px dotted #ccc; padding:5px;}
+.moviesoon .list:nth-child(1){margin-top:30px;}
+
+.moviesoon li img{float:left; width:100px; margin:10px 3%;}
+.moviesoon span{display:block; font-size:15px; font-weight:bold; padding:8px 0 0 120px;}

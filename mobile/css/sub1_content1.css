@@ -1,0 +1,14 @@
+/* sub1_1의 내용 콘텐츠 */
+.main_menu li:nth-child(1) a{background:#333; color:#fc0;}
+.sub_menu{overflow:hidden;}
+.sub_menu li:nth-child(1) a{border-bottom:3px #333 solid}
+.sub_menu li a{display:block; box-sizing:border-box; width:50%; float:left; text-align: center; background:#fff; color:#333; font-size:13px; padding:8px 0}
+
+.intro{padding:10px 5%;margin:0 0 10px 0; background:#fff; text-align:center;}
+.intro h2, .bz h2{padding:3%; margin-bottom:3px; font-size:15px; color:#333; font-weight:600; text-align:center;}
+.intro img{width:90%;margin-left:5%; margin-bottom:10px;}
+.intro, .bz p{font-size:12px; font-weight:normal;line-height:1.8em; text-align:justify;}
+
+.bz{padding:10px 5%; margin:10px 0; background:#fff; text-align:center;}
+.bz .bzarea {width:100%;}
+.bz p img{width:100px; display:block; margin-top:10px;}

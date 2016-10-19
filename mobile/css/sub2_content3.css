@@ -1,0 +1,7 @@
+/* sub2_3의 내용 콘텐츠 */
+.main_menu li:nth-child(2) a{background:#333; color:#fc0;}
+.sub_menu{overflow:hidden;}
+.sub_menu li:nth-child(3) a{border-bottom:3px #333 solid}
+.sub_menu li a{display:block; box-sizing:border-box; width:33.33%; float:left; text-align: center; background:#fff; color:#333; font-size:13px; padding:8px 0}
+
+.gallery{background:#fff;}
