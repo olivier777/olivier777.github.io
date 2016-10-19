@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PROGRAM:인기프로그램</title>
+<style type="text/css">
+@import url(http://fonts.googleapis.
+    com/earlyaccess/nanumgothic.css);
+</style>
+<link href="../common/css/common.css" type="text/css" rel="stylesheet" />
+<link href="common/css/sub2common.css" type="text/css" rel="stylesheet" />
+<link href="css/sub2_content2.css" type="text/css" rel="stylesheet" />
+<script src="../common/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript" src="../common/js/common.js"></script>
+<script type="text/javascript" src="../common/js/select.js"></script>
+<script src="js/sub2_2.js" type="text/javascript"></script>
+<script src="../common/js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script type="text/javascript" src="../common/js/move-top.js"></script>
+<script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){     
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+            });
+            
+            var defaults = {
+                    containerID: 'toTop', // fading element id
+                    containerHoverID: 'toTopHover', // fading element hover id
+                    scrollSpeed: 1200,
+                    easingType: 'linear' 
+                };
+                $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+</script>
+
+</head>
+<body>
+
+    <div id="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#navi">글로벌 네비게이션 바로가기</a>
+        <a href="#ticket">영화 예매 바로가기</a>
+</div>
+<!--skipNav e-->
+
+    <div id="header">
+        <div class="headerInner">
+            <div class="headertop">
+                <div class="sns">
+                    <ul>
+                        <li><a href="#" class="fb">페이스북 바로가기</a></li>
+                        <li><a href="#" class="tw">트위터 바로가기</a></li>
+                        <li><a href="#" class="yt">유투브 바로가기</a></li>
+                    </ul>
+                </div>
+                <!--sns e-->
+                <div class="quick">
+                    <ul>
+                        <li><a href="#"><img src="../common/images/btn1.jpg" alt="로그인 바로가기" /></a></li>
+                        <li><a href="#" ><img src="../common/images/btn2.jpg" alt="사이트맵 바로가기" /></a></li>
+                        <li><a href="#"><img src="../common/images/btn3.jpg" alt="영문홈페이지 바로가기" /></a></li>
+                    </ul>
+                </div>
+                <!--quick e-->
+                <div class="search">
+                    <label for="search" class="hidden">검색하세요.</label>
+                    <input type="text" id="search" value="검색하세요." title="검색 입력칸"/>
+                    <button type="submit" id="search_submit">검색</button>
+                </div>
+            </div>
+            <!--headertop e-->
+        </div>
+        <!--headerInner e-->
+        <div class="headermenu_wrap">
+            <div class="headermenu">
+            	<h1>
+                    <a href="../index.html" class="logo">tvN 로고</a>
+                </h1>
+
+            <div id="navi">
+                <h2 class="hidden">글로벌 네비게이션 영역</h2>
+                <ul class="dropdownmenu">
+                <li class="m1 menu"><h3><a class="depth1" href="../sub1/sub1_1.html">ABOUT US</a></h3>
+                    <ul>
+                        <li><a href="../sub1/sub1_1.html" class="first">회사소개</a></li>
+                        <li><a href="../sub1/sub1_2.html">CEO MESSAGE</a></li>
+                        <li><a href="../sub1/sub1_3.html">회사연혁</a></li>
+                        <li><a href="../sub1/sub1_4.html" class="last">오시는길</a></li>
+                    </ul>
+                 </li>
+                 <li class="m2 menu"><h3><a class="depth1" href="../sub2/sub2_1.html">PROGRAM</a></h3>
+                    <ul>
+                        <li><a href="../sub2/sub2_1.html" class="first">최신프로그램</a></li>
+                        <li><a href="../sub2/sub2_2.html" class="last">인기프로그램</a></li>
+                    </ul>
+                </li>
+                <li class="m3 menu"><h3><a class="depth1" href="../sub3/sub3.html">PORTFOLIO</a></h3>  
+                </li>
+                <li class="m4 menu"><h3><a class="depth1" href="../sub4/sub4_1.html">NEWS&amp;APPLY</a></h3>
+                    <ul>
+                        <li><a href="../sub4/sub4_1.html" class="first">공지사항</a></li>
+                        <li><a href="../sub4/sub4_2.html" class="last">인재채용</a></li>
+                    </ul>
+                </li>
+
+                <li class="m5 menu"><h3><a class="depth1" href="../sub5/sub5_1.html">IR</a></h3>
+                    <ul>
+                        <li><a href="../sub5/sub5_1.html" class="first">재무정보</a></li>
+                        <li><a href="../sub5/sub5_2.html" class="last">IR자료실</a></li>
+                    </ul>
+                </li>
+                <!--<li class="m6 menu"><h3><a class="depth1" href="#">고객센터</a></h3>
+                </li>-->
+            </ul>
+            </div>
+            <!--navi e-->
+            </div>
+            <!--headermenu e-->
+        </div>
+        <!--headermenu_wrap e-->
+
+    </div>
+    <!--header e-->
+	<div class="container">
+		<div class="leftbox">
+			<div class="leftNav">
+				<h3>tvN IR</h3>
+		  		<div class="leftMenu">
+		      		<ul>
+		          		<li class="menu1"><a href="sub2_1.html">최신프로그램</a></li>
+		          		<li class="menu2"><a class="current" href="sub2_2.html">인기프로그램</a></li>
+		      		</ul>
+		  		</div>
+			</div>
+			<div class="banner">
+				<a href="#"><img src="common/images/banner1.jpg" alt="tvN 어워즈 바로가기" /></a>
+				<a href="#"><img src="common/images/banner2.jpg" alt="막돼먹은영애씨 이벤트" /></a>
+			</div>
+		</div>
+		<!--leftbox e-->
+        <div id="content">
+        	<div class="titleArea">
+                <div class="lineMap">
+                    <a href="../index.html">HOME </a> &gt; <span>PROGRAM</span> &gt; <strong>인기프로그램</strong>
+                </div>
+                <!-- lineMap e -->
+        	    <h2>인기프로그램</h2>
+                <p>tvN의 최고 시청률을 자랑하는 인기프로그램에 대한 정보를 제공합니다.</p>
+            </div>
+        	<!-- titleArea e -->
+            <div class="contentArea">
+            <div class="movienow">
+            <iframe width="600" height="340" src="http://vodplayer.interest.me/embed/cjpromotion/watch?idpath=122413" frameborder="0" title="K2 예고보기"></iframe>
+            <img class="poster" src="images/content2/movie_image.jpg" alt="K2 포스터" />
+                <div class="info">
+                    <div class="title">
+                        <span class="rate">18세 이상 관람가</span>
+                        <h3>THE K2</h3>
+                        <p class="english">2016</p>
+                    </div>
+                    <div class="text">
+                        <div class="dday">
+                       매주 금토 저녁 8시 <span>tvN</span>
+                        </div>
+                        <!--dday-->
+                        <ul>
+                            <li><strong>편성</strong> : 2016.09.23 ~ 방송중 tvN (금, 토) 오후 08:00</li>
+                            <li><strong>시청률</strong> : 5.1% (닐슨코리아 제공) / 6.1% (TNMS 제공)</li>
+                            <li><strong>연출</strong> : 곽정환</li>
+                            <li><strong>극본</strong> : 장혁린</li>
+                            <li><strong>출연진</strong>: 지창욱, 임윤아, 송윤아, 조성하, 김갑수</li>
+                            <li><strong>장르</strong> : 드라마 / 총 16부작 </li>
+                            <li><strong>줄거리</strong> : 전쟁 용병 출신의 보디가드 K2와 그를 고용한 대선 후보의 아내,..<a class="readmore" href="#t1">▶줄거리 더보기</a><p class="plot">
+                             그리고 세상과 떨어져 사는 소녀! 로열패밀리를 둘러싼 은밀하고 강렬한 보디가드 액션 드라마
+                            <br/></p></li>
+                        </ul>
+                    </div>
+                    <!--text e-->
+                    </div>
+                    <!--info e-->
+                </div>
+                <!--movienow e-->
+            </div>
+            <!--contentArea e-->
+        </div>
+        <!--content e-->
+    </div>
+    <!--container-->
+
+    <div id="footer">   
+    <div class="footerInner">
+        <div class="footleft">
+            <img src="../images/footerlogo.jpg" class="logo" alt="쇼박스 로고" />
+            <ul class="company">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">제휴문의</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li class="privacy"><a href="#">개인정보취급방침</a></li>
+            </ul>
+            <div class="info">
+                <ul>
+                        <li><address>서울특별시 마포구 상암산로 66 (상암동) CJ이앤엠센터</address></li>
+                        <li>방송편성문의 : 080-080-0780/0781  l  사이트/동영상문의 : 1566-2226</li>
+                        <li>사업자등록번호 : 114-86-83380통신판매신고번호 : 2011-서울마포-0404</li>
+                        <li><p>Copyright (C) CJ E&amp;M All rigths reserved.</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footright">
+            <div class="select open" style="width:200px;">
+                <span class="ctrl"><span class="arrow">family site 화살표</span></span>
+                <button type="button" class="myValue">Family site 바로가기</button>
+                <ul class="aList">
+                        <li><a href="#">CJ주식회사</a></li>
+                        <li><a href="#">CJ E&amp;M</a></li>
+                        <li><a href="#">CJ CGV</a></li>
+                        <li><a href="#">CJ헬로비전</a></li>
+                        <li><a href="#">CJ파워캐스트</a></li>
+                        <li><a href="#">CJ제일제당</a></li>
+                        <li><a href="#">CJ프레시웨이</a></li>
+                        <li><a href="#">CJ푸드빌</a></li>
+                        <li><a href="#">CJ엠디원</a></li>
+                </ul>
+            </div>
+            <ul class="sns">
+                <li><a href="#"><img src="../common/images/footer_fb.jpg" alt="페이스북 바로가기" /></a></li>
+                <li><a href="#"><img src="../common/images/footer_tw.jpg" alt="트위터 바로가기" /></a></li>
+                <li><a href="#"><img src="../common/images/footer_yt.jpg" alt="유투브 바로가기" /></a></li>
+            </ul>
+                <p><br /><a href="http://validator.kldp.org/check?uri=referer"
+      onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+      src="http://validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid XHTML 1.0 Transitional" height="15" width="80" /></a></p>
+                <a href="http://toel777.cafe24.com/tvn/mobile/index.html"><input type="button" value="모바일버전" style="cursor:pointer" /></a>
+        </div>
+        <!--footright e-->
+    </div>
+    <!--footerwrap e-->
+</div>
+<!--footer e-->
+
+<div class="topbtn">
+    <a href="#" id="toTop">
+    <span id="toTopHover"><img src="../common/images/top.png" alt="상단으로이동" /></span></a>
+    <!--end scroll_top_btn -->
+</div>
+</body>
+</html>

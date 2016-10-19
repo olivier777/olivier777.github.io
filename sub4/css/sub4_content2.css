@@ -1,0 +1,31 @@
+/* CSS Document */
+.leftNav .leftMenu li a.current{background: url(../common/images/sub4_hover.jpg);} 
+.leftNav .leftMenu .menu2_1 a{background: url(../common/images/hover2_1.jpg) no-repeat; height:35px;}
+.leftNav .leftMenu .menu2_2 a{background: url(../common/images/menu2_2.jpg) no-repeat; height:35px;}
+.leftNav .leftMenu .menu2_1 a:hover{background: url(../common/images/hover2_1.jpg) no-repeat; height:35px;}
+.leftNav .leftMenu .menu2_2 a:hover{background: url(../common/images/hover2_2.jpg) no-repeat; height:35px;}
+
+#content{width:690px; padding:40px; float:right;}
+.titleArea{height:91px; position:relative; border-bottom:1px solid #ccc;}
+.titleArea .lineMap{position:absolute;right:0; top:-15px; font-size:11px; color:#666; padding-left:20px; background:url(../common/images/home.jpg) left center no-repeat;}
+.titleArea .lineMap a{color:#666;}
+.titleArea h2{overflow:hidden;width:112px;height:28px;background:url(../images/content2/title1.jpg); text-indent:-999px}
+.titleArea p{overflow:hidden;width:275px;height:23px;background:url(../images/content2/title2.jpg); text-indent:-999px; margin-top:5px;}
+
+.contentArea{padding:50px 45px; position:relative;}
+.contentArea .process{overflow:hidden; padding:30px 0 10px 0;}
+.contentArea .process h3{overflow:hidden; width:86px; height:30px; text-indent:-999px; 
+	background:url(../images/content2/process.jpg);}
+.contentArea .process img{margin:30px 0 10px 0;}
+.contentArea .ol{overflow:hidden;}
+.contentArea .process ol li{float:left; width:105px; height:80px; margin-right:60px; 
+	text-align:center;}
+.contentArea .process ol li.last{margin-right:0;}
+
+.contentArea .faq{padding-top:30px; border-top:1px dotted #ccc;}
+.contentArea .faq h3{overflow:hidden; width:185px; height:30px; text-indent:-999px; 
+	background:url(../images/content2/faq.jpg);}
+.contentArea .faq dl{margin-top:25px;}
+.contentArea .faq dd{padding:10px 10px 10px 20px}
+.contentArea .info{margin-top: 30px; padding:10px; vertical-align:center middle; 
+	text-align: center; line-height:1.7em;background:#ccc; color:#333;}

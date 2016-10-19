@@ -1,0 +1,17 @@
+/* CSS Document */
+/* 각 대분류별 공통 css (레이아웃, 비주얼) */
+
+#header{border-bottom:2px solid #666}
+ul.dropdownmenu li.m2 a.depth1{width:71px;background:url(../images/menu_hover.jpg) -98px 0 no-repeat;}
+
+.container{width:1000px; margin:0 auto; overflow:hidden; margin-top:108px;}
+.leftbox{float:left; width:228px; border-left:1px solid #ccc; border-right:1px solid #ccc;}
+.leftNav h3{width:228px; height:131px; text-indent:-9999px; overflow:hidden; background:url(../images/sub2_title.jpg);}
+.leftNav .leftMenu {overflow:hidden;}
+.leftNav .leftMenu li a {display: block; height:52px; text-indent:-9999px;overflow:hidden; border-bottom:1px solid #ccc;}
+.leftNav .leftMenu .menu1 a{background: url(../images/sub2_menu1.jpg);}
+.leftNav .leftMenu .menu2 a{background: url(../images/sub2_menu2.jpg);}
+.leftNav .leftMenu .menu1 a:hover{background: url(../images/sub2_hover1.jpg);}
+.leftNav .leftMenu .menu2 a:hover{background: url(../images/sub2_hover2.jpg);}
+.leftbox .banner img{width:228px; display:block; margin-top:20px;}
+.leftbox .banner {margin-top:50px;}

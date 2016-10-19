@@ -1,0 +1,24 @@
+/* CSS Document */
+
+.leftNav .leftMenu li a.current{background: url(../common/images/sub2_hover2.jpg);} 
+
+#content{width:690px; padding:40px; float:right;}
+.titleArea{height:91px; position:relative; border-bottom:1px solid #ccc;}
+.titleArea .lineMap{position:absolute;right:0; top:-15px; font-size:11px; color:#666; padding-left:20px; background:url(../common/images/home.jpg) left center no-repeat;}
+.titleArea .lineMap a{color:#666;}
+.titleArea h2{overflow:hidden;width:139px;height:28px;background:url(../images/content2/title1.jpg); text-indent:-999px}
+.titleArea p{overflow:hidden;width:400px;height:23px;background:url(../images/content2/title2.jpg); text-indent:-999px; margin-top:5px;}
+
+.contentArea{padding:50px 45px; overflow:hidden;}
+.contentArea .movienow{overflow:hidden; width:600px; margin-bottom:40px; background:#ccc;padding:20px 20px 30px 20px;position:relative;}
+.contentArea iframe{margin-bottom:30px;}
+.poster{float:left; width:176px;}
+.movienow .info{float:right; width:384px; margin: 0 10px 0 20px;}
+.movienow .info .title{margin-bottom:10px;}
+.movienow .info .title .rate{display:block; text-indent:-999px; overflow:hidden; width:33px; height:34px; background:url(../images/content2/18.png) no-repeat; float:left; margin-right:10px;}
+.movienow .info .title h3{font-size:20px; font-weight:bold;}
+.text{overflow:hidden;}
+.movienow .readmore{display:block; position:absolute; bottom:13px; right:35px; color:#333;}
+.text .dday{margin:10px 0; font-size:1.2em; color:#333; font-weight:bold;}
+.text .dday span{color:red;}
+.text li{line-height:2em;}
