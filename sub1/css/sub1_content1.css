@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.leftNav .leftMenu li a.current{background: url(../common/images/sub1_hover1.jpg);} 
+
+#content{width:690px; padding:40px; float:right;}
+.titleArea{height:91px; position:relative; border-bottom:1px solid #ccc;}
+.titleArea .lineMap{position:absolute;right:0; top:-15px; font-size:11px; color:#666; padding-left:20px; background:url(../common/images/home.jpg) left center no-repeat;}
+.titleArea .lineMap a{color:#666;}
+.titleArea h2{overflow:hidden;width:112px;height:28px;background:url(../images/content1/sub1_title1.jpg);text-indent:-999px}
+.titleArea p{overflow:hidden;width:390px;height:23px;background:url(../images/content1/sub1_title2.jpg);text-indent:-999px;margin-top:5px;}
+
+.contentArea .intro {padding:30px 45px 50px 45px; border-bottom:2px dotted #ccc;}
+.contentArea .intro h3{margin-left:110px; width:388px; height:60px; text-indent:-999px; overflow:hidden;background:url(../images/content1/content1.jpg);}
+.contentArea .intro img{margin:30px 35px;}
+.contentArea .intro p{margin:10px 40px 20px 40px; line-height:2.0em; color:#666;}
+.contentArea .intro span{color:red;}
+.contentArea .business {padding:50px 45px;}
+.contentArea .business h3{width:350px; height:64px; text-indent:-999px; overflow:hidden; background:url(../images/content1/business01.jpg); margin-left:124px;}
+.business .bz{margin:30px 0;}
+.business p{line-height:2.0em; color:#666; margin:0 35px;}
+.business p img{display:block; margin:15px 0 5px -10px}

@@ -1,0 +1,30 @@
+/* CSS Document */
+
+.leftNav .leftMenu li a.current{background: url(../common/images/sub1_hover4.jpg);} 
+
+#content{width:690px; padding:40px; float:right;}
+.titleArea{height:91px; position:relative; border-bottom:1px solid #ccc;}
+.titleArea .lineMap{position:absolute;right:0; top:-15px; font-size:11px; color:#666; padding-left:20px; background:url(../common/images/home.jpg) left center no-repeat;}
+.titleArea .lineMap a{color:#666;}
+.titleArea h2{overflow:hidden;width:204px;height:28px;background:url(../images/content4/contact_title.jpg); text-indent:-999px}
+.titleArea p{overflow:hidden;width:390px;height:23px;background:url(../images/content4/contact_title2.jpg); text-indent:-999px; margin-top:5px;}
+
+.contentArea{padding:50px 45px;}
+.contentArea .map{margin-bottom:30px;}
+.contentArea #map_canvas{width:600px; height:300px;}
+.contentArea .map h3{width:600px; height:55px; overflow:hidden; text-indent:-999px; 
+						background:url(../images/content4/contact1.jpg); margin-bottom:30px;}
+.contentArea .contact{margin-bottom:30px;}
+.contentArea .contact h3{width:142px; height:46px; text-indent:-999px; overflow:hidden; background:url(../images/content4/contactus.jpg);}			
+.contentArea .contact table{width:600px;}
+.contentArea .contact tr{height:35px; border:1px solid #ccc;}
+.contentArea .contact th{width:142px; border-right:1px solid #ccc;}
+.contentArea .contact td{padding:0 20px;}
+
+.contentArea .public{width:600px;}
+.contentArea .public h3{width:164px; height:46px; text-indent:-999px; overflow:hidden; background:url(../images/content4/public.jpg)}
+.contentArea .publicbox{width:548px; height:70px; border:1px solid #ccc; padding:25px; overflow:hidden;}
+.publicbox .bus{float:left; width:274px; background:url(../images/content4/bar.jpg) right center no-repeat; overflow:hidden;}
+.publicbox .subway{float:right; width:254px; overflow:hidden;}
+.publicbox img{float:left;}
+.publicbox p{margin-left:90px;line-height:1.5em; padding-left:10px; background:url(../images/content4/bar2.jpg) left center no-repeat;}

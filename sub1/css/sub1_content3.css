@@ -1,0 +1,34 @@
+/* CSS Document */
+
+.leftNav .leftMenu li a.current{background: url(../common/images/sub1_hover3.jpg);} 
+
+#content{width:690px; padding:40px; float:right;}
+.titleArea{height:91px; position:relative; border-bottom:1px solid #ccc;}
+.titleArea .lineMap{position:absolute;right:0; top:-15px; font-size:11px; color:#666; padding-left:20px; background:url(../common/images/home.jpg) left center no-repeat;}
+.titleArea .lineMap a{color:#666;}
+.titleArea h2{overflow:hidden;width:204px;height:28px;background:url(../images/content3/sub1_title1.jpg); text-indent:-999px}
+.titleArea p{overflow:hidden;width:500px;height:23px;background:url(../images/content3/sub1_title2.jpg); text-indent:-999px; margin-top:5px;}
+
+.contentArea{padding:50px 45px;}
+.contentArea .history {overflow:hidden}
+.contentArea .history h3{width:373px; height:55px; overflow:hidden; text-indent:-999px; 
+						background:url(../images/content3/content1.jpg); margin-bottom:40px;}
+.history .image{width:600px; height:74px; overflow:hidden;}
+.history .image a{text-indent:-999px; overflow:hidden; height:74px; float:left;}
+.history .image .year1{width:129px; background:url(../images/content3/year1.jpg);}
+.history .image .year1:hover{background:url(../images/content3/hover1.jpg);}
+.history .image .year2{width:129px; background:url(../images/content3/year2.jpg);}
+.history .image .year2:hover{background:url(../images/content3/hover2.jpg);}
+.history .image .year3{width:129px; background:url(../images/content3/year3.jpg);}
+.history .image .year3:hover{background:url(../images/content3/hover3.jpg);}
+.history .image .year4{width:213px; background:url(../images/content3/year4.jpg)no-repeat;}
+.history .image .year4:hover{background:url(../images/content3/hover4.jpg)no-repeat;}
+
+.contentArea .years{overflow:hidden; margin-top:30px;}
+.years ul li{border-bottom:1px solid #ccc;}
+.years dl{overflow:hidden; padding:35px 0;}
+.years dt{width:127px; float:left;}
+.years dd{width:473px; float:right; line-height:2.0em;}
+.years .year1,.year2,.year3,.year4{margin-bottom:20px;}
+.years img{margin-right:10px;}
+.years dd span{font-weight:bold; color:#333;}
