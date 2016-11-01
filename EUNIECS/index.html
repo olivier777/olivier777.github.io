@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>::::: 유니스의 정원 :::::</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/FABI.jpg" />
+	<link rel="stylesheet" href="src/jquery.bxslider.css" />
+	<link rel="stylesheet" href="src/nanoscroller.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="src/vegas.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<script type="text/javascript" src="src/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="src/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="src/vegas.min.js"></script>
+	<script type="text/javascript" src="src/jquery.hoverdir.js"></script>
+	<script type="text/javascript" src="src/jquery.nanoscroller.min.js"></script>
+	<script type="text/javascript" src="src/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+	<!--<script type="text/javascript" src="src/jquery.arbitrary-anchor.js"></script>-->
+	<style type="text/css">
+	/* preloading */
+	#load_screen {position: fixed;left: 0;top: 0;z-index:9999;width: 100%;height: 100%;background-color:rgba(255,255,255,0.8);}
+	#load_screen img {position:relative;left:50%;top:50%;margin-top:-32px;margin-left:-32px;}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<div class="header-bg"></div>
+			<div class="clearfix">
+				<div class="logo fl"><a class="ir" href="#">유니스의 정원</a></div>
+				<div class="nav-wrap">
+					<ul class="nav clearfix">
+						<li><a class="nav-home" href="#">HOME</a></li>
+						<li><a class="nav-about" href="#">ABOUT</a></li>
+						<li><a class="nav-service" href="#">I &#58; PUL</a></li>
+						<li><a class="nav-contact" href="#">CONTACT</a></li>
+					</ul>
+					<span class="bar"></span>
+				</div>
+			</div>
+		</div>
+		<!-- 0 -->
+		<div class="home" id="home">
+			<h1 class="eunices-logo"><img src="images/logo_h_w.png" alt="유니스의 정원" /></h1>
+			<a href="#" class="btn-arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			<div class="topbg_gradation"></div>
+			<a href="e" class="service_s">
+				<i class="fa fa-envira" aria-hidden="true"></i><em>이플실내정원</em>
+				<i class="fa fa-envira" aria-hidden="true"></i><em>레스토랑&amp;카페</em>
+				<i class="fa fa-envira" aria-hidden="true"></i><em>전시&amp;체험</em>
+				<i class="fa fa-envira" aria-hidden="true"></i><em>이용안내</em>
+			</a>
+		</div>
+		<div class="home-ie8"></div>
+		<!-- 1 -->
+		<div class="section about" id="about">
+			<div class="eunices ca">
+				<h2>ABOUT EUNICE'S<span>IT TRACE BACK TO THE YEAR OF 1975</span></h2>	
+				<!--<img src="images/logo_color.png" alt="logo" />-->					
+				<p>1975년, 배나무 과수원이었던 자리에 산벚나무, 단풍나무, 실향나무 묘목을 심고 가꾼 것이 시작이었습니다.<br>그 후 수십년의 세월이 흘러, 보잘것 없던 묘목들이 세월의 흔적을 고스란히 담고 굳게 자라 2만7천여평의 <br>아름다운 숲을 이루었습니다. 그 숲을 배경으로 정성스레 정원을 가꾸길 다시 수년이 지나고,<br>숲과 함께 긴 세월 자리하고 있던 오래된 집을 개축하여 2007년 가을, 첫 방문객을 맞게 되었습니다.<br>화려하거나 크지는 않지만, 있는 그대로의 자연과 그것을 지키기 위해 하나 하나<br>직접 손질하고 가꾼 손때 묻은 정원의 편안함과 따뜻함을 선사하고자 합니다.<br>도시의 힘든 일상에서 벗어나 아름다운 자연 속에서<br>지친 몸과 마음의 휴식을 누릴 수 있는 소중한 쉼터가 되도록 노력하겠습니다.
+				</p>
+			</div>
+		</div>	
+		<div class="motto">
+			<div class="fix-bg"><!-- <img src="images/fixed_c_bg.jpg" alt="" /> --></div>
+			<div class="ca">
+					<ul class="clearfix">
+						<li>
+							<i class="fa fa-smile-o" aria-hidden="true"></i>
+							<h3 class="title">사람</h3>
+							<em>자연과 식물이 주는 위안을<br>누구든 누릴 수 있길 바라는 마음.<br>그 마음으로 휠체어와 유모차도 관람할 수 있도록<br>실내정원이 세심히 고안되었습니다.</em>
+						</li>
+						<li>
+							<i class="fa fa-pagelines" aria-hidden="true"></i>
+							<h3 class="title">자연</h3>
+							<em>풀, 꽃, 나무가 한데 어우러진 자연에서 누리는 평화<br>40여년간 정성껏 가꿔 온 녹음 우거진 산책로와<br>정원을 걸으며 피로한 일상에 찌든 <br>몸과 마음의 휴식을 찾아보세요.</em>
+						</li>
+						<li>
+							<i class="fa fa-heart" aria-hidden="true"></i>
+							<h3 class="title">정성</h3>
+							<em>따뜻함이 물씬 느껴지는 손때 묻은 정원<br>매끈하고 반듯한 것보다, 손과 마음으로<br>만든 조금은 서툴고 투박한 것들로 채워진 공간입니다.<br>깎고, 칠하고, 속새질하고..</em>	
+						</li>
+					</ul>
+			</div>
+		</div>	
+		<div class="section why ca">
+			<h3>EUNICE'S GARDEN STORY<span>유니스 스토리</span></h3>
+			<ul class="clearfix">
+				<li>
+					<span class="text">
+						<em>ARCHITECTURE / 건축이야기</em>
+						<span>식물과 문화의 만남을 위한 이풀실내정원의 기본적인 공간컨셉은 실내에 담긴 실외공간입니다.  냇물, 언덕, 식물, 가로등, 바위 등 외부 자연환경을 담고 있는 중앙온실은 이풀실내정원의 가장 중요한 전시공간이며, 건물의 가장 중앙에 위치해 있습니다.  식물이라는 전시물의 특성을 극대화 시키고 식물을 관람하는 관람객의 경험을 흥미롭게 이끌어 내기 위하여, 주 전시물인 식물을 대상으로 바라본다기 보다는 경사로를 따른 산책과 휴식을 통하여 자연스럽게 체험하도록 하였습니다.
+
+이풀실내정원과 유니스의정원의 건물과 정원을 설계하고 인테리어를 디자인한 건축가 지승은은 서울대학교 산업디자인학과와 건축학과를 졸업하고 미국 콜럼비아 대학에서 건축학 석사학위를 받았습니다. 뉴욕의 베르나르 추미 건축사사무소(Bernard Tschumi Architects)와 시아플랜(Siaplan)에서 근무하였으며, 에이투제로플래닝(A20 Planning)을 설립하여 장르를 넘어서는 다양한 공간과 가치의 디자인을 제공하고 있습니다.
+(A20 PLANNING Email: achee@a20planning.com)</span>
+					</span>
+				</li>
+				<li>
+					<span class="text">
+						<em>TALKING ABOUT FOOD / 음식이야기</em>
+						<span>유니스의 정원은 자연과 가까운 재료로 정성을 담아 만드는 음식을 추구합니다. 피클, 빵 같은 작은 것들까지도 정직한 재료로 조리사들이 직접 요리하며, 정원에서 재배한 허브로 향을 더합니다. 파머스 베이커리에서는 유럽 농부들의 제빵방식인 천연발효종, 마스코바도 유기농 설탕, 무항생제 계란 등 건강한 재료를 이용하여 구워낸 빵을 당일에 판매합니다. 또한 카페 피크닉테이블에서는 시럽 대신 꿀을 넣어 만든 신선한 생과일 주스, 친환경 등급의 요거트와 아이스크림 등 맛과 건강을 모두 생각한 메뉴를 온가족이 함께 즐기실 수 있습니다</span>
+					</span>
+				</li>
+
+			</ul>				
+		</div>
+		<!-- 2 -->
+		<div class="section service" id="service">
+			<div class="eunices-wrap">
+				<h2>OUR SERVICES<span>주요사업내용</span></h2> 
+				<!--효과 마우스오버시 이미지 줌인+hover.js + 클릭:라이트박스-->
+				<ul id="eunices" class="eunices clearfix">
+					<li class="hSmall item-all"><a href="#"><img src="images/eunices_bbq.jpg" alt="바베큐그릴">
+						<div class="color"><span class="text">바베큐&amp;그릴<br>BBQ / THE GRILL<br>STEAK / THE GRILL<br>PASTA&amp;RISOTTO</span></div>
+					</a></li>
+					<li class="hSmall item-parking ab-01"><a href="#"><img src="images/eunices_cafe.jpg" alt="카페디저트">
+						<div><span class="text">카페&amp;디저트바<br>THE PICNIC TABLE<br>THE FARMER’S BAKERY</span></div>
+					</a></li>
+					<li class="hBig item-clean"><a href="#"><img src="images/eunices_garden.jpg" alt="레스토랑&카페">
+						<div><span class="text">유니스의 정원<br>레스토랑&amp;카페<br>THE GRILL<br>THE PICNIC TABLE<br>THE FARMER'S BAKERY</span></div>
+					</a></li>
+					<li class="hSmall item-outsource"><a href="#"><img src="images/eunices_gallary.jpg" alt="사진미술전">							
+						<div class="color"><span class="text">사진&amp;미술전<br>EVENT / EXHIBITION</span></div>
+					</a></li>
+					<li class="hSmall item-house ab-02"><a href="#"><img src="images/eunices_edu.jpg" alt="교육체험">
+						<div><span class="text">교육 &amp; 체험<br>EVENT / PROGRAMS</span></div>
+					</a></li>
+					<li class="hBig item-people"><a href="#"><img src="images/eunices_ipul.jpg" alt="이풀실내정원">
+						<div><span class="text">이풀실내정원<br>I:PUL INDOOR GARDEN<br>GARDEN LIGHTING<br>MEDIA ART</span></div>
+					</a></li>
+				</ul>
+			</div>
+			<div class="euni-contents"> 
+				<div id="bxPager" class="clearfix">
+					<a data-slide-index="0" href="#" class="btn btn-building"><i class="fa fa-building fa-3x"></i><span class="t">I:PUL실내정원</span><span class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+					<a data-slide-index="1" href="#" class="btn btn-secure"><i class="fa fa-building fa-3x "></i><span class="t">유니스의 정원</span><span class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+					<a data-slide-index="2" href="#" class="btn btn-clean"><i class="fa fa-envira fa-3x"></i><span class="t">봄&#8226;여름&#8226;가을&#8226;겨울</span><span class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+					<a data-slide-index="3" href="#" class="btn btn-fumigate"><i class="fa fa-info-circle"></i><span class="t">이용안내</span><span class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+				</div>
+				<div class="euniSliderWrap">
+					<div class="visualcue-mousewheel"><img src="./images/visualCue_mouseWheel.gif" alt="마우스휠을 사용하세요" /></div>
+					<ul class="euniSlider clearfix">
+						<li>
+							<div class="contents clearfix">
+								<div class="left bg-01"><img src="images/euniSliders_eunice.jpg" alt="이풀실내정원" />
+									<div class="twrap"><em class="no">01</em><h4 class="title">I:PUL실내정원</h4><span class="text">식물전시관 및 갤러리<br>가든센터</span>
+									</div>
+								</div>
+								<div  class="right nano"><!-- id="about" -->
+									<div class="twrap nano-content">
+										<div class="tt bd">
+											<h5><a href="#">식물전시관 및 갤러리<span class="chevron ir"></span></a></h5>
+											<dl>
+											<dt>&#8226;식물전시관</dt><dd><p>이풀’은 ‘이로운 풀’ 즉 ‘이로운 식물’이라는 뜻의 조합어로, 실내에서도 언제나 식물을 가까이 보고 즐길 수 있는 다양한 실내 가드닝(Gardening) 방법을 전시하고, 식물이 주는 휴식을 통해 위안과 재충전의 기회를 선사하는 초록 문화공간 입니다. 건물 한가운데를 시원하게 굽이쳐 흐르는 계류의 물줄기를 가로 지르며 지그재그로 올라가는 관람로와 소정원들이 독창적인 온실 디자인을 보여주는 ‘걷는 정원’, 재미있는 실내 가드닝 방법을 전시로서 제안하는 ‘즐기는 정원’과 ‘피톤치드 체험방’, 정원관련 서적과 교양서를 읽을 수 있는 ‘읽는 정원’ 등을 만나실 수 있습니다. 저녁이면 아름다운 미디어 영상물이 실내정원을 수놓으며 잊지 못할 추억과 낭만을 선사합니다.</p></dd>
+                                            <dt>&#8226;갤러리</dt><dd><p>2층 카페 내부에 위치한 ‘쉬어가는 정원’에서는 식물과 예술의 융합(Convergence)을 통하여 관람객들이 식물과 예술을 자연스럽게 같이 즐길 수 있도록 다양한 전시회를 개최하고 있습니다.</p></dd>
+                                            </dl>
+										</div>	
+										<div class="tt">
+											<h5 class="title"><a href="#">가든센터<span class="chevron ir"></span></a></h5>
+											<dl>
+												<dt>&#8226;가든센터</dt>
+												<dd><p>- 다양한 정원 용품, 아이디어가 돋보이는 디자인 소품, 자연 소재로 만든 수공예품, 허브용품 등을 만나보실 수 있습니다.</p></dd>
+												<dt>&#8226;카페&amp;디저트바</dt>
+												<dd><p>- 내외 정원 조망과 함께 커피, 허브차, 시럽을 전혀 넣지 않고 만든 건강한 생과일 주스 등을 즐기실 수 있습니다. 또한 주문 즉시 요리하여 내는 와플, 파이, 천연 요거트 등 간단한 디저트류를 함께 드실 수 있습니다.</p></dd>
+												<dt>&#8226;베이커리</dt>
+												<dd><p>- 유럽 농부들의 제빵방식인 천연발효종, 마스코바도 유기농 설탕, 무항생제 계란 등 건강한 재료를 이용하여 구워낸 빵으로서, 당일 구워낸 빵만을 판매합니다.</p></dd>
+											</dl>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="contents">
+								<div class="left bg-02"><img src="images/euniSliders_restaurant.jpg" alt="유니스의정원" />
+									<div class="twrap"><em class="no">02</em><h4 class="title">유니스의 정원</h4><span class="text">THE GRILL<br>THE PICNIC TABLE<br>THE FARMER'S BAKERY</span>
+									</div>
+								</div>
+								<div class="right nano">
+									<div class="twrap nano-content">
+										<div class="tt bd">
+											<h5><a href="#">THE GRILL<span class="chevron ir"></span></a></h5>
+									        	<dl>
+												<dt>&#8226;BBQ / THE GRILL</dt>
+												<dd><p>정원의 허브로 숙성한 치킨 바베큐, 흑돼지 목등심 스테이크, 수제소시지, 훈제 오리 등 인기만점 바베큐 메뉴를 단품 또는 2인용 세트, 3인용 모듬 메뉴 중에서 골라 드실 수 있습니다.</p></dd>
+												<dt>&#8226;STEAK / THE GRILL</dt>
+												<dd><p>국내산 및 호주산 쇠고기를 허브로 숙성하여 그대로 구워낸 부드러운 육질의 스테이크 요리입니다.</p></dd>
+												<dt>&#8226;PASTA&amp;RISOTTO / THE GRILL</dt>
+												<dd><p>매일 아침 신선하게 공수하는 각종 식재료와 유니스 주방의 홈메이드 소스로 요리하는 스파게티와 리조또 메뉴. 화학조미료를 넣지 않으며, 최고급 이태리면과 유기농 하이아미 쌀을 사용합니다.</p></dd>
+												<dt>&#8226;SOUP / THE GRILL</dt>
+												<dd><p>최적의 상태로 잘 익은 단호박만 골라 오븐에 정성껏 구워낸 후, 그 안에 부드러운 크림스프를 담아내어 고소한 맛이 일품인 유니스 정원의 인기메뉴  ‘통단호박 스프’와 계절 스프 메뉴들을 즐기실 수 있습니다.</p></dd>
+												<dt>&#8226;SALAD / THE GRILL</dt>
+												<dd><p>매일 아침 엄선하여 공수하는 신선한 제철 야채와 직접 재배한 허브로 싱그런 향을 더한 홈메이드 드레싱의 건강한 샐러드 메뉴를 즐기실 수 있습니다.</p></dd>
+											    </dl>
+										</div>
+									<div class="tt bd">
+											<h5 class="title"><a href="#">THE PICNIC TABLE<span class="chevron ir"></span></a></h5>
+									        	<dl>
+												<dt>&#8226;커피&amp;차</dt>
+												<dd><p>정원을 조망하며 즐길 수 있는 다양한 커피와 유기농 허브차 메뉴가 준비되어 있습니다.</p></dd>
+												<dt>&#8226;건강음료 </dt>
+												<dd><p>시럽대신 꿀로 단맛을 가미한 자연 그대로의 ‘생과일 주스’, 아무런 첨가물없이 신선한 과일과 야채를 주문 즉시 착즙하여 맛과 건강을 모두 잡은 ‘비타민 드링크’ 등 정직하게 자연을 담은 음료를 즐기실 수 있습니다.</p></dd>
+												<dt>&#8226;요거트&amp;아이스크림</dt>
+												<dd><p>유기농 종균으로 건강하게 키워낸 친환경 등급의 요거트와 아이스크림 메뉴로, 맛과 건강을 모두 담았습니다.</p></dd>
+												<dt>&#8226;바나나 아이스크림</dt>
+												<dt>&#8226;빙수 (여름 메뉴)</dt>
+												<dd><p>직접 쑨 국산 팥과 떡, 견과류를 듬뿍 올린 홈메이드 스타일의 팥빙수와 달콤한 망고 과육, 망고아이스크림이 일품인 망고 빙수를 즐기실 수 있습니다.</p></dd>
+												<dt>&#8226;디저트</dt>
+												<dd><p>눈으로 보는 즐거움과 입으로 느끼는 즐거움이 오밀 조밀한 디저트</p></dd>
+												<dt>&#8226;파이</dt>
+												<dd></dd>
+												<dt>&#8226;아보카토</dt>
+												<dd></dd>
+												<dt>&#8226;쿠키 케이크</dt>
+												<dd></dd>
+												<dt>&#8226;블루베리 케이크</dt>
+												<dd></dd>
+												<dt>&#8226;딸기 케이크</dt>
+												<dd></dd>
+												<dt>&#8226;바나나 와플</dt>
+												<dd></dd>
+												<dt>&#8226;딸기 와플</dt>
+												<dd></dd>
+												<dt>&#8226;애플 코블러 (겨울 메뉴)</dt>
+                                                <dd></dd>
+									    		</dl>
+										</div>	
+								        <div class="tt">
+											<h5 class="title"><a href="#">THE FARMER'S BAKERY<span class="chevron ir"></span></a></h5>
+										        <dl>
+												<dt>&#8226;파머스 브레드</dt>
+												<dd><p>천연발효종, 마스코바도 유기농 설탕, 무항생제 계란을 이용하여 구워낸 건강한 빵으로, 당일생산-당일판매 합니다.</p></dd>
+												<dt>&#8226;쿠키</dt>
+												<dd><p>직접 재배한 로즈마리로 맛을 낸 로즈마리 쿠키, 겉은 바삭하면서도 속은 촉촉하고 쫀득한 식감의 달콤한 마카롱 등을 맛보실 수 있습니다.</p></dd>
+												<dt>&#8226;초콜릿</dt>
+                                                <dd></dd>
+											    </dl>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="contents">
+								<div class="left bg-03"><img src="images/euniSliders_seasons.jpg" alt="사계절" />
+									<div class="twrap"><em class="no">03</em><h4 class="title">봄&#8226;여름&#8226;가을&#8226;겨울</h4><span class="text">SPRING / 봄<br>SUMMER / 여름<br>AUTUMN / 가을<br>WINTER /겨울</span>
+									</div>
+								</div>	
+								<div class="right nano">
+									<div class="twrap nano-content">
+										<div class="tt bd">
+											<h5><a href="#">SPRING / 봄<span class="chevron ir"></span></a></h5>
+                                            <dl>	
+                                                <dt>&#8226;봄은 설레임</dt>
+												<dd><p>땅속에서 긴 잠을 자던 작은 씨앗이 환한 봄 햇살에 깨어나 떡잎을 쑤욱 내밉니다.  식물도 사람도 따뜻한 햇볕을 맞으며 봄의 기운을 충전합니다.  모든 것이 새롭게 시작되는 시간, 봄의 정원은 그 찬란한 설레임이 가득한 시간입니다.</p></dd>
+												<dt>&#8226;봄 나들이</dt>
+												<dd><p>일상에서 정원으로 길을 옮기면 꽃과 나무가 주는 기쁨이 한아름 절정으로 치닫습니다.  때로는 일상의 무거움과 번잡함을 잠시 내려놓고 자연이 선사하는 기쁨과 위로를 오롯이 누려도 좋을 듯 싶습니다.</p></dd>
+												<dt>&#8226;만개한 봄</dt>
+												<dd><p>봄을 품은 대지에 정원사의 정성스런 손길이 닿으면, 겨울을 이겨낸 정원이 아름다운 나무와 꽃의 궁전으로 자라납니다.  만개한 꽃들이 형형색색 화려한 자태를 뽐내며 보는 이의 마음을 즐겁게 해줍니다.  이 아름다움을 눈으로 본다 하여 봄 이라 불리울까요.  봄은 눈이 즐거운 계절입니다.</p></dd>
+                                            </dl>	
+										</div>
+										<div class="tt bd">
+											<h5><a href="#">SUMMER / 여름<span class="chevron ir"></span></a></h5>
+                                            <dl>	
+                                                <dt>&#8226;신록의 여름</dt>
+												<dd><p>어느 날에는 촉촉한 비가 내리고, 또 다른 날에는 강한 햇볕에 온몸이 뜨겁기도 하지요.  그렇게 계절이 바뀌는 동안, 보잘것 없이 작기만 했던 떡잎은 싱그러운 잎을 드리우는 강건한 나무로 자라고, 정원을 찾는 이에게 시원한 쉼터를 만들어 주어요.  그렇게 여름은 잊을 수 없는 강렬한 추억으로 남습니다.</p></dd>
+												<dt>&#8226;함께 즐기는 여름</dt>
+												<dd><p>생명력이 왕성한 여름, 정원의 주인공이 여럿 되었습니다.  화려한 꽃을 찾아 나비와 꿀벌이 날아 듭니다.  여름을 알리는 매미가 열심히 울어댑니다.  갈 곳 없는 작은 새가 무성해진 나뭇가지에 둥지를 만들어 편안히 쉬어가기도 하네요.  다양한 생명들이 함께 들려주는 여름 합창이 정겹기도 하네요.</p></dd>
+												<dt>&#8226;여름 숲길</dt>
+												<dd><p>나무가 뿜어내는 피톤치드의 양이 최대가 되는 여름철.  나무가 스스로를 지키기 위해 내뿜지만, 더불어 사람의 몸과 마음을 치료해주는 고마운 물질이지요.  수십년 굳건히 자라 이룬 화백, 잣나무, 소나무 숲을 걷다보면 그 청량함이 더위를 잊게 만들어 줍니다.</p></dd>
+                                            </dl>	
+										</div>
+										<div class="tt bd">
+											<h5><a href="#">AUTUMN / 가을<span class="chevron ir"></span></a></h5>
+                                            <dl>	
+                                                <dt>&#8226;가을 단풍</dt>
+												<dd><p>가을 단풍이 물들이는 것은 나뭇잎 뿐만이 아니랍니다.  어느새 정원사의 마음도 때로는 노랗게, 때로는 붉게  번지며 가을을 어루만지게 되니까요.</p></dd>
+												<dt>&#8226;가을 산책</dt>
+												<dd><p>삶을 여행하고 싶을 땐 이만한 계절이 없을 듯 해요.  초록의 잎이 울긋 불긋 화려한 옷으로 갈아입고, 꽃이 진 자리에 열매가 맺히고 씨앗이 달리는 계절.  꽃과 나무가 자신이 나고 자란 바로 그 자리에 씨앗을 떨구고 새로운 생명을 기약하는 시간이지요.  자신의 모든 것을 돌려주고 말이예요.  정원을 산책하는 것이 작은 명상이 되는 그런 시간이랍니다.</p></dd>
+                                            </dl>	
+										</div>
+										<div class="tt bd">
+											<h5><a href="#">WINTER / 겨울<span class="chevron ir"></span></a></h5>
+                                            <dl>	
+                                                <dt>&#8226;겨울 낭만</dt>
+												<dd><p>흰눈이 정원을 순백으로 덮으면 정원사는 그제야 깨닫습니다.  사람의 욕심으로 제아무리 아름답고 화려하게 정원을 가꾸어도, 하늘과 자연의 솜씨에는 조금도 미치지 못한다는 것을요. 순백의 정원은 형언할 수 없는 아름다움입니다.</p></dd>
+												<dt>&#8226;겨울 이야기</dt>
+												<dd><p>크리스마스 트리 장식과 싼타클로스에 얽힌 추억은 잠시나마 우리를 동심의 시간에 머물게 합니다.  따뜻한 화로가에 옹기 종기 둘러앉아 달콤한 마시멜로를 함께 구워먹는 시간은 우리의 마음까지 따뜻하게 녹여주는 듯 합니다.  겨울 정원은 정겨운 이야기와 추억이 있어 따뜻하게 기억될 겁니다.</p></dd>
+                                            </dl>	
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="contents">
+								<div class="left bg-04"><img src="images/euniSliders_eunicesgarden.jpg" alt="이용안내" />
+									<div class="twrap"><em class="no">04</em><h4 class="title">이용안내</h4><span class="text">영업시간 및 이용수칙<br>전시&amp;체험</span>
+									</div>
+								</div>
+								<div class="right nano">
+									<div class="twrap nano-content">
+									<div class="tt bd">
+											<h5><a href="#">VISIT INFO<span class="chevron ir"></span></a></h5>
+                                            <dl>	
+                                                <dt>&#8226;영업시간</dt>
+												<dd><p>11:00AM – 22:00PM<br>(레스토랑, 카페, 베이커리는 11:30AM부터 입장가능. 월요일 휴무, 단 공휴일인 경우는 정상영업)</p></dd>
+												<dt>&#8226;이용수칙</dt>
+												<dd><p>✓산림법 125조에 의하여 지정구역 외에서는 반드시 금연하여 주십시요.<br>
+                                                ✓음식물, 취사도구 및 돗자리 반입을 삼가하여 주십시요.<br>
+
+                                                ✓아이들끼리 뛰어 놀게 두지 마시고, 반드시 보호자가 항상 함께 하며 안전에 주의를 기울여 주십시요. (야외에는 야생동물, 돌부리 등 자연적인 위험요소가 있으며, 실내에도 추락 또는 낙상 사고의 개연성이 있으므로 보호자가 항상 주의를 기울여 주셔야 합니다.)<br>
+
+                                                ✓단체(여행사 단체관광, 어린이집 등의 기관)로 오실 때에는 반드시 사전에 예약문의하여 주십시요. 사전 예약 및 협의가 없는 경우, 입장이 불가하오니 양해 부탁드립니다.<br>
+
+                                                ✓상업 이미지 촬영(쇼핑몰 상품 및 모델 촬영, 스튜디오 촬영, 각종 홍보물 촬영 등)은 사전허가(유료) 시에만 진행하실 수 있습니다.<br>
+
+                                                ✓공놀이 또는 체육 기자재를 이용한 운동 행위를 삼가하여 주십시요. (자전거, 퀵보드, 인라인, 축구, 배드민턴, 골프연습 등은 타인의 안전과 휴식을 방해합니다)<br>
+
+                                                ✓고성방가(단체로 노래, 박수를 치거나 앰프, 확성기를 이용한 행위 등)를 삼가하여 주십시요.<br>
+
+                                                ✓식물, 열매, 토석, 곤충을 채취 또는 채집할 수 없습니다.<br>
+
+                                                ✓화단에 들어가지 마시고, 식물을 꺾거나 밟지 마십시요.<br>
+
+                                                ✓타인의 불편을 야기할 수 있어 반려동물 동반입장이 불가하오니 양해 부탁드립니다.</p></dd>
+                                            </dl>	
+										</div>
+										<div class="tt bd">
+											<h5><a href="#">EVENT<span class="chevron ir"></span></a></h5>
+                                            <dl>	
+                                                <dt>&#8226;GARDEN LIGHTING / 빛의 정원</dt>
+												<dd><p>저녁이 되면 아름다운 불빛이 정원을 수놓습니다.  식물의 휴식을 방해하지 않는 광섬유와 저전압 전구를 이용하여 자연과 어우러지도록 연출하였습니다.  또한 아름다운 미디어 영상이 정원에서의 특별한 추억을 더하여 드립니다.</p></dd>
+												<dt>&#8226;MEDIA ART / 미디어쇼</dt>
+												<dd><p>크리스마스 미디어쇼 많은 가족들과 연인들이 추운 날씨에도 식물원 안에서 따뜻하고 특별한 크리스마스를 보냈습니다.  크리스마스 심볼트리와 하늘에서 쏟아져 내리는 수 많은 눈꽃들. 아이들이 무척이나 즐거워 했습니다.</p></dd>
+												<dt>&#8226;EXHIBITION / 사진&amp;미술전</dt>
+												<dd><p>2층 카페 내부에 위치한 ‘쉬어가는 정원’에서는 경기도 미술관 소장품 전시회 ‘현대미술, 정원을 걷다’와 사진작가 김재인의 ‘Forest of Heaven: 생명에게 말을 건네는 아프리카 사진전’을 시작으로 다양한 전시회가 열리고 있습니다.  정원을 거닐며 자연 그리고 식물에 대한 공감과 이해를 경험한 관람객들이 정원 속에 자리한 예술 작품 전시를 통하여 작가들에 의해 탄생한 ‘또 다른 자연’을 새롭게 느낄 수 있는 기회를 제공하고자 합니다.  회화, 사진, 조각, 설치 등 여러 장르에서의 유명 작가들의 작품을 통해, 작가들이 자연과 소통하는 다양한 방식을 공감해 보시길 바랍니다.</p></dd>
+                                                <dt>&#8226;PROGRAMS / 교육&amp;체험</dt>
+												<dd><p>식물과 그 밖의 다양한 자연 소재를 활용한 쉽고 즐거운 가드닝 관련 교육 및 체험 프로그램들에 참여하실 수 있습니다.</p></dd>
+                                                <dt>&#8226;MARSHMALLOW / 마시멜로 구이</dt>
+												<dd><p>겨울철만의 특별한 추억을 위하여 말랑말랑 달콤한 마시멜로를 직접 구워드시는 이벤트가 진행됩니다.  하얀 마시멜로를 나무 꼬챙이에 꽂아 장작난로의 열기를 이용하여 구워내면 그 달콤함과 더불어 재미있는 추억까지 더하실 수 있습니다.  식사 후 서비스로 제공되며, 스몰스(마시멜로와 초콜릿으로 만드는 쿠키 샌드위치)도 구입하실 수 있습니다.</p></dd>
+                                            </dl>	
+										</div>
+										<div class="tt bd">
+											<h5><a href="#">CONTACT INFORMATION<span class="chevron ir"></span></a></h5>
+                                            <dl>	
+                                                <dt>&#8226;서울지역 (양재, 사당 경유) / 과천, 안양, 군포 지역 (양재에서 40분, 산본에서 20분 소요)</dt>
+												<dd><p>47번국도 안산방향  영동고속도로 군포IC 입구 직전 반월저수지 (4호선 대야미역) 방향 우회전  반월저수지 이정표를 따라 저수지를 끝까지 돌아내려오신 후  하천길(유진 레미콘 정문앞길)로 우회전  약 800미터 진행하시면 두번째 하천다리 건너로 유니스의 정원이 보입니다.</p></dd>
+												<dt>&#8226;서울지역 (양천, 구로 경유) / (마포에서 40분 소요)</dt>
+												<dd><p>부간선도로  서해안고속도로  안산IC로 나오셔서 영동고속도로 수원, 원주방향 진입   군포IC로 나오셔서 과천,안양방면으로 진입  첫번째 횡단보도에서 반월저수지 (4호선 대야미역) 방향으로 좌회전  반월저수지 이정표를 따라 저수지를 끝까지 돌아내려오신 후  하천길(유진 레미콘 정문앞길)로 우회전  약 800미터 진행하시면 두번째 하천다리 건너로 유니스의 정원이 보입니다.</p></dd>
+												<dt>&#8226;안산, 인천 지역 (안산시청에서 20분 소요)</dt>
+												<dd><p>수인산업도로(42번국도) 수원방향  비봉, 매송IC방향으로 우회전 직후 (전면 신호등 쪽으로 진행하지 마시고) 바로 P턴  터널 통과  삼거리 우회전후 다시 좌회전하여 하천길 진입  약 1.5km 진행하시면 왼쪽 하천다리 건너로 유니스의 정원이 보입니다.</p></dd>
+                                               	<dt>&#8226;수원, 분당 지역 (서수원IC에서 15분 소요)</dt>
+												<dd><p>수인산업도로(42번국도) 안산방향  비봉, 반월역 출구로 우회전 신호등에서 좌회전하여 인천, 안산방향 고가램프 진입  약 150미터 진행후 고가램프 끝나는 지점에서 90도방향 우회전하여 하천길 진입 (그냥 지나치실 수 있으니 고가램프 진입후 반드시 감속하세요)  약1.5km 진행하시면 왼쪽 하천다리 건너로 유니스의 정원이 보입니다.</p></dd>
+                                            </dl>	
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="btn-arrow">
+							<a class="btn btn-prev" href="#"><i class="fa fa-angle-left fa-5x" aria-hidden="true"></i></a>
+							<a class="btn btn-next" href="#"><i class="fa fa-angle-right fa-5x" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 3 -->	
+		<div class="section contact" id="contact">
+			<div class="ca">
+				<h2>CONTACT<span>찾아오시는 길</span></h2>
+				<div id="eunicesMap"></div>
+				<div class="text clearfix">
+					<div class="tel"><i class="fa fa-phone" aria-hidden="true"></i>012)345-7890</div>
+					<div class="ad">
+						<div class="newAddress"><i class="material-icons">place</i>경기도 안산시 팔곡일동 163-2</div>  
+					</div>
+					<div class="fax"><i class="fa fa-fax" aria-hidden="true"></i>012)345-6789</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="ca">
+				<div class="info">
+					<div class="logo"><img src="images/logo_h_w_130.png" alt=""></div>
+					<div class="text">
+						<div class="address">유니스의 정원<span>|</span>경기도 안산시 팔곡일동 163-2<span>|</span></div>
+						<div><em>TEL</em>012)345-6789<span>|</span><em>FAX</em>012)345-6789<span>|</span><em>E-MAIL</em>ABC@hanmail.net</div>			
+						<div class="copy">COPYRIGHT © 2015 이풀실내정원.</div>
+						 <p>
+                            <a href="http://validator.kldp.org/check?uri=referer"
+                              onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+                              src="http://validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid HTML 5" height="15" width="80"></a>
+                          </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="load_screen"><img src="images/loading.gif" alt="loading" /></div>
+	<script>
+	/*pre-loading*/
+	window.addEventListener('load',function(){
+		var obj=document.getElementById('load_screen');
+		document.body.removeChild(obj);	
+	})
+	</script>
+	<script src="js/init.js"></script>
+	
+</body>
+</html>

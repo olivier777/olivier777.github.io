@@ -1,0 +1,212 @@
+@charset"utf8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* main-color  #213366  0,11,172 */
+/* reset */
+html,body,ul,li,h1,h2,h3,h4,h5,div,p,dl,dd,dt,p,em{margin:0;padding:0;}
+ul {list-style:none;}
+a{text-decoration:none; font-family:'arial','Nanum Gothic','나눔고딕','돋움'; color: #555;}
+img{vertical-align:top; border:0 none;}
+em{font-style:normal;}
+
+/* common */
+body{font-family:'Nanum Gothic','나눔고딕','돋움'; line-height:24px; font-size:13px; color:#555;}
+h1,h2,h3{font-family:'arial','Nanum Gothic','나눔고딕','돋움'; color:#000;  padding-bottom:30px;}
+h2{font-size:38px; }
+h2 span {display:block; font-size:16px; padding-top:15px; color:#888; font-weight: normal; }
+p{color:#666;  }
+h3{ font-size:26px; }
+h3 span{display:block; font-size:16px; padding-top:10px; color:#888; font-weight: normal;}
+.clearfix{}
+.clearfix:after{display:block;clear:both;content:"";}
+.fl{float:left;}
+.ca{width:980px; margin:0 auto; }
+.ir{display: block; text-indent: -9999px;}
+.section{width:100%; text-align:center; }
+.about,.why,.service,.licensing-wrap,.contact{background-color:#fff;}
+
+/* layout */
+html {height:100%;}
+body {height:100%; overflow-x:hidden;}
+.warp {height:100%; position:relative; }
+.wrap .header {position:fixed;left:0;top:0;width:100%;z-index:5000;}
+.wrap .home {height:100%;}
+.wrap .section.about {}
+.wrap .motto {}
+.wrap .why
+.wrap .section.service {}
+.wrap .section.licensing-wrap {}
+.wrap .section.contact {}
+.wrap .footer {}
+
+/* custom */
+/* header */
+.wrap .header{}
+.header .logo {position:relative;float:left; margin-left:34px; display:none;}
+.header .logo a {margin-top:34px;width:150px; height:29px; background:url(../images/logo_h_w_150.png) 0 0 no-repeat; }
+.header .nav-wrap {position: relative; float:right;margin-right:30px;  }
+.nav-wrap .nav li {float:left;}
+.nav-wrap .nav li a {position:relative;display: block; padding:34px 10px; color:#fff; font-size:15px; line-height: 15px; font-family:'arial','Nanum Gothic','나눔고딕','돋움'; font-weight:bold; }
+.nav-wrap .nav li a:hover {color:#7FB5FF;}
+.nav-wrap span.bar {display: block;position: absolute; left:10px; bottom:20px; width: 45px;height: 3px;background-color: #fff;}
+.header .header-bg {display:none;position:absolute; left:0;top:0; width:100%; height:100%; background:rgba(0,0,0,0.5) url(../images/overlay_06.png) 0 0 repeat;} 
+.header.bg-on .header-bg{display:block;}
+.header.bg-on .nav li a {padding:20px 10px 24px 10px !important;}
+.header.bg-on .logo a {margin-top:18px; background:url(../images/logo_h_w_130.png) 0 0 no-repeat;}
+.header.bg-on .nav-wrap span.bar {bottom:15px; height: 2px;}
+
+/* home */
+.home {text-align:center; }
+.home .topbg_gradation{position:absolute;left:0;top:0;width:100%;height:200px; background:url(../images/home_topbg_gradation.png) 0 0 repeat; z-index:500;  }
+.home .eunices-logo {position:relative; top:50%;margin-top:-70px;z-index:600;}
+.home .btn-arrow {display:block; position:absolute; left:50%;margin-left:-16px;top:50%;margin-top:70px;z-index:600;}
+.home .btn-arrow .fa-angle-down {font-size:50px;color:#fff; }
+.service_s {display:block;position:absolute;bottom:0;width:100%;height:16px;padding:60px 0;text-indent:10px;color:#fff; font-size:14px;  z-index:600;background:url(../images/home_bottombg_gradation.png) 0 0 repeat;}
+.service_s em {padding:0 20px 0 8px;}
+
+/* about */
+.about .eunices {padding: 90px 0 80px 0;}
+.about .eunices img {}
+.about .eunices span {font-weight: normal;}
+.about .eunices p {width:700px; margin:0 auto; }
+.motto {position:relative;text-align:center; padding:80px 0; background-color:rgba(0,0,0,0.7); color:#fff;}
+.motto .fix-bg{position:fixed;left:0; top:0;width: 100%; height: 100%;background-image: url(../images/fixed_c_bg.jpg); -webkit-background-size: cover;
+background-size: cover;z-index:-10;}
+.motto .title{font-size:22px; padding:15px 0; font-weight:normal;color:#fff;}
+.motto ul li {float:left; width:33.333333%;}
+.motto ul li i {font-size:50px; }
+.motto ul em {font-size:13px; color:#ddd;}
+
+.wrap .why {padding:80px 0 50px 0;}
+.why h3{padding-bottom:30px;}
+.why ul{font-size:13px; width: 900px;margin:0 auto;text-align:left;}
+.why ul li{float:left; width:50%; padding:0px; }
+.why ul li:after{display:block;clear:both;content:"";}
+.why ul i{float:left;display:inline; font-size:50px; padding:0 25px 0 15px;color:#aaa; text-indent:80px;}
+.why .text{float:left;}
+.why .text em{display:block; font-weight:bold; margin:0 auto;font-size:16px; }
+.why .text span{display: block; padding-top:10px; width: 90%;text-align: justify}
+.why .text i.fa-line-chart {font-size:30px;}
+
+/* service - 01 */
+.service {}
+.service .eunices-wrap{width: 100%;}
+.service .eunices-wrap h2 {border-top: 1px solid #ddd; padding:60px 0 40px 0;}
+.eunices-wrap #eunices {position: relative;height: 320px; }
+#eunices li {position: relative;float: left;overflow: hidden;/*width:245px;*/width: 25%;}
+#eunices li.item-people {float: right;}
+#eunices li a {display:block;}
+#eunices li a:hover {cursor:url(../images/cursor.png),url(),auto; }
+#eunices li a img,#eunices li a div{width: 100%; height: 100%;}
+#eunices li a div{position: absolute;background-color:rgba(0,0,0,0.8);}
+#eunices li a div.color{background-color:#213366;}
+#eunices .ab-01,#eunices .ab-02 {position:absolute;/*top:160px;width:245px;height: 160px;*/}
+#eunices .ab-01 {left:0}
+#eunices .ab-02 {/*left:490px*/}
+#eunices .hBig {/*height: 320px;*/}
+#eunices .hSmall {/*height: 160px;*/} 
+#eunices li .text {display: block;padding-top: 50px;color: #fff;font-size: 18px; }
+#eunices li img {opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);}
+#eunices li {background: center center no-repeat; background-size:cover;}
+#eunices .item-all {background-image:url(../images/eunices_bbq.jpg);} 
+#eunices .item-house {background-image:url(../images/eunices_edu.jpg);} 
+#eunices .item-clean {background-image:url(../images/eunices_garden.jpg);} 
+#eunices .item-outsource {background-image:url(../images/eunices_gallary.jpg);} 
+#eunices .item-parking {background-image:url(../images/eunices_cafe.jpg);} 
+#eunices .item-people {background-image:url(../images/eunices_ipul.jpg);} 
+
+/* service - 02 */
+.service .euni-contents {padding:36px 0 0 0;}
+.visualcue-mousewheel {width:44px;position:absolute;z-index:20;right:25px;top:25px;}
+.euni-contents #bxPager {padding-bottom:10px; width: 590px; margin:0 auto;}
+.euni-contents #bxPager a {position:relative;color: #888; vertical-align:bottom;}
+.euni-contents #bxPager a:hover {color: #213366;}
+.euni-contents #bxPager a.active {color: #213366;}
+.euni-contents #bxPager a .arrow {display: none; font-size:30px; color: #ddd;margin-left: 5px; }
+.euni-contents #bxPager a.active .arrow{display: block; }
+#bxPager .btn {display: block;float: left; padding:0 20px ;}
+#bxPager .btn>i{display: block;position:absolute;left:center;top:0;}
+#bxPager .btn>i.fa-building {margin-left:35px;font-size:42px;}
+#bxPager .btn>i.fa-info-circle {margin-left:15px; font-size:46px;}
+#bxPager .btn>i.fa-trash-o {margin-left:20px; font-size:46px;}
+#bxPager .btn>i.fa-envira {margin-left:30px;font-size:42px;}
+#bxPager .btn .t {display: block; padding-top: 50px;margin-left: 10px;}
+
+.euni-contents .euniSliderWrap{position:relative; width: 100%; }
+.euniSliderWrap .euniSlider li {position: relative;}
+.euniSlider .contents {width: 100%; }
+.euniSlider .contents .left,.euniSlider .contents .right {width: 50%; height: 100%; float: left;}
+.euniSlider .contents .left {height:100%;background: center center no-repeat; background-size:cover;}
+.euniSlider .contents .left.bg-01{background-image: url(../images/euniSliders_eunice.jpg);} 
+.euniSlider .contents .left.bg-02{background-image: url(../images/euniSliders_restaurant.jpg);} 
+.euniSlider .contents .left.bg-03{background-image: url(../images/euniSliders_seasons.jpg);} 
+.euniSlider .contents .left.bg-04{background-image: url(../images/euniSliders_eunicesgarden.jpg);} 
+.euniSlider .contents .left img {width: 100%; opacity:0; filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);}
+.euniSlider .contents .left .twrap{position: absolute;left:0;top:0;width: 50%;padding:80px 0;background-color:rgba(0,0,0,0.7); color: #fff;display:table; }
+.contents .left .twrap em {font-size: 40px;height: 40px;}
+.contents .left .twrap .title {display: block !important; padding:30px 0;font-size: 36px; font-weight:normal;}
+.contents .left .twrap .text {display: block !important;font-size: 13px; font-weight: normal; }
+
+.contents .nano {}
+.contents .nano>.nano-pane   { background: #ddd; }
+.contents .nano>.nano-pane>.nano-slider { background: #aaa;}
+.contents .right {text-align: left; background:url(../images/eunice_right_bg_fabric.png) 0 0 repeat; /*overflow-y:scroll;*/}
+.contents .right .twrap.nano-content {padding: 40px 50px ;  }
+.contents .right .twrap .tt {} 
+.contents .right .twrap .tt.on dl,.right .twrap .tt.on p {display: none;}
+.contents .right .twrap .bd {border-bottom: 1px solid #aaa;}
+.contents .right .twrap .tt a {position:relative;}
+.contents .right .twrap .tt a .chevron {position:relative; display:inline-block;padding-left: 10px; width:30px ;height:30px;background:url(../images/btn_up.png) 10px 10px no-repeat; opacity:10;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);}
+.contents .right .twrap .tt.on a .chevron {background-image: url(../images/btn_down.png);}
+.contents .right .twrap h5 a {color: #213366;}
+.contents .right .twrap h5 a:hover  {color: #3276d3;}
+.contents .right .twrap h5 {font-size: 20px; padding-bottom:30px; color: #333;}
+.contents .right .twrap h5.title {padding-top: 30px;}
+.contents .right .twrap p,.twrap .p {padding-bottom: 30px;}
+.contents .right .twrap em {font-weight:bold; }
+.contents .right .twrap dt {font-weight: bold; font-size:15px ; color: #555; }
+.contents .right .twrap dd {font-size: 13px;padding-bottom: 15px;} 
+
+.euni-contents .bx-wrapper .bx-prev,.euni-contents .bx-wrapper .bx-next{display:none;}
+/*.euni-contents .btn-arrow {position:absolute;top:50%;z-index:5000;margin-top:-40px;width:100%;height:65px;} */
+.euni-contents .btn-arrow .btn {display:block;position: absolute;top: 50%;margin-top:-40px; z-index:100;color:#ccc;width: 60px;height:65px; }
+.euni-contents .btn-arrow .btn:hover {background-color: #213366;}
+.euni-contents .btn-arrow .btn-prev {left:0;padding:0 3px 5px 0;}
+.euni-contents .btn-arrow .btn-next {right:0;padding: 0 0 5px 3px;}
+
+
+/* contact */
+.contact {padding:70px 0 30px 0; }
+.contact h2{padding-bottom: 40px;}
+.contact #eunicesMap {width: 100%; height:300px; border: 1px solid #ddd;}
+.map-t {line-height:20px;padding:10px 0;}
+.map-t img {padding:10px;}
+.map-t p {}
+.contact .text {width: 830px;margin: 40px 0 40px auto; color: #888;}
+.contact .text .clearfix{text-align: center;}
+.contact .text .ad .newAddress {font-weight: bold;font-size: 16px;}
+.contact .text .ad,.text .tel,.contact .fax {float: left;font-weight: bold;font-size: 16px; padding:0 40px;}  
+.contact .text i {display: block; height:30px; padding-bottom:5px; }
+.contact .text .newAddress i {font-size: 32px; margin: -5px 0 5px 0;}
+.contact .text .tel i { font-size: 30px; margin: -5px 0 5px 0;}
+.contact .text .fax i { font-size: 23px;}
+
+
+/* footer */
+.wrap .footer {height:300px; background-color:#333; color: #aaa; font-size:12px; text-align: center;}
+.footer .logo {opacity:0.5;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50); padding: 80px 0 20px 0;}
+.footer .info .text span {padding:0 10px; color: #555;}
+.footer .info .text em {font-weight: bold;padding-right:8px;}
+.footer a.validator {display:inline-block;margin-top:20px;}
+
+
+/* IE 9 이하 접근시_ sorry.html */
+.sorry {width:600px;margin:0 auto;padding:80px 0 60px 0;text-align:center; font-family:'Nanum Gothic';}
+.sorry h2 {font-size:26px;line-height:40px;}
+.sorry p {padding-bottom:30px;font-size:16px;line-height:30px;color:#555;}
+.sorry em {color:#213366;}
+.sorry .btn {}
+.sorry .btn a {display:inline-block;border:1px solid #cccccc;padding:20px 20px;margin: 0 10px;font-size:14px;font-weight:bold;color:#555;box-shadow: 1px 1px 2px #ccc;color:#213366;}
+.sorry .btn a:hover {box-shadow: 4px 6px 8px #ccc;color:#213366;}
+
+
